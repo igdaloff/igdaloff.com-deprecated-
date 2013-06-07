@@ -1,0 +1,158 @@
+/*======= FONTS ========*/
+@font-face {
+	font-family: AlteHaasReg;
+	src: url('../fonts/AlteHaasGroteskRegular.ttf');
+}
+
+@font-face {
+	font-family: LeagueGothic;
+	src: url('../fonts/LeagueGothic.otf');
+}
+
+@font-face {
+	font-family: AdelleBasicItalic;
+	src: url('../fonts/AdelleBasicBoldItalic.otf');
+}
+
+/*======= BASICS ========*/
+
+body{
+	margin:0 auto;
+	font-family:LeagueGothic,helvetica,sans-serif;
+	background:url(../images/greylinepattern.png) fixed; 
+}
+
+/*======= HEADER ========*/
+
+#top-section{
+	padding-top:100px;
+	margin:0 auto;
+}
+
+hgroup{
+	text-indent:-999px;
+	background: transparent url(../images/operatingsystemslogo.png) scroll top center no-repeat;
+	height:300px;
+}
+
+/*======= PRIMARY NAV ========*/
+
+#primary-nav{
+	width:100%;
+	margin:0 auto;
+	height:50px;
+	line-height:50px;
+	margin-top:50px;
+	margin-bottom:200px;
+	font-size:200%;	
+}
+
+#primary-nav ul{
+	text-transform:uppercase;
+	list-style:none;
+	text-align:center;
+	width:800px;
+	margin:0 auto;
+	padding-left:0;
+}
+
+#primary-nav ul li{
+	display:inline-block;	
+	letter-spacing:2px;
+	font: LeagueGothic,helvetica,sans-serif;
+}
+
+#primary-nav li:not(:last-of-type){
+	margin-right:60px;
+}
+
+#primary-nav a{
+	text-decoration:none;
+	color:black;
+	display:block;		
+}
+
+#primary-nav a:hover:before{
+	content: "\003C";
+	position:relative;
+	margin-left:-19px;		
+}
+
+#primary-nav a:hover:after{
+	content: "/\003E";
+	position:absolute;
+}
+
+.what-is-os{
+	width:100%;
+	text-align:center;
+}
+
+
+/*======= PRIMARY CONTENT ========*/
+
+.section{
+	margin:40px;
+	border-top:2px solid black;
+	padding-top:2px;		
+}
+
+.section p{
+	font: 95% AlteHaasReg,helvetica,sans-serif;
+	margin-left:50px;
+	line-height:20px;
+	width:900px;
+}
+
+.top{
+	float:right;
+	padding:22px;
+	font-size:150%;
+	color:black;
+	text-decoration:none;
+}
+
+.section h2{
+	font-size:250%;
+	padding-left:50px;
+	margin-bottom:10px;
+	margin-top:0;
+	text-transform:uppercase;
+	padding-top:20px;
+	border-top:solid 3px black;
+	font-weight:normal;
+}
+
+.section ul{
+	padding-left:90px;
+	font: 95% AlteHaasReg,helvetica,sans-serif;
+	width:850px;		
+}
+
+.section ul p{
+	font-size:52%;
+	padding-left:40px;
+	margin-top:-100px;
+	color:gray;
+	position:absolute;
+	left:130px;
+	padding-top: 35px;
+	font-family:AdelleBasicItalic, serif;	
+	width:1050px;
+}
+
+.readmore{
+	float:right;
+	padding-right:10px;
+	font: 75% AlteHaasReg,helvetica,sans-serif;
+	color:black;
+}
+
+.twitter-div{
+	margin-top:28px;
+	margin-right:20px;
+	float:right;
+}
+
+
+
