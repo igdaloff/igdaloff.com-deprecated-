@@ -26,20 +26,38 @@ $(window).load( function(){
   });
 });
 
-$('.work-nav').on('click', function(){
+//WORK CAROUSEL COUNTER
+$(window).load( function(){
 
-	var itemNumber = $(this).find('.work-item-number').html();
-	var itemNumberTotal = $(this).find('.work-item-total').html();
+	$('.work-nav .next').on('click', function(){
 
-	console.log('the number is ' + itemNumber);
+		var $itemNumberContainer = $(this).siblings('.work-item-count').find('.work-item-number');
+		var $itemNumber = $itemNumberContainer.html();
+		var $itemNumberTotal = $(this).siblings('.work-item-count').find('.work-item-total').html();
 
-	itemNumber++;
+		$itemNumber++;
 
-	$(this).find('.work-item-number').html(itemNumber);
+		$itemNumberContainer.html($itemNumber);
 
-	if (itemNumber > itemNumberTotal) {
-		itemNumber = 1;
-		$(this).find('.work-item-number').html(itemNumber);
-	}
+		if ($itemNumber > $itemNumberTotal) {
+			$itemNumber = 1;
+			$itemNumberContainer.html($itemNumber);
+		}
+	});
 
-});
+	$('.work-nav .prev').on('click', function(){
+
+		var $itemNumberContainer = $(this).siblings('.work-item-count').find('.work-item-number');
+		var $itemNumber = $itemNumberContainer.html();
+		var $itemNumberTotal = $(this).siblings('.work-item-count').find('.work-item-total').html();
+
+		$itemNumber--;
+
+		$itemNumberContainer.html($itemNumber);
+
+		if ($itemNumber < 1) {
+			$itemNumber = $itemNumberTotal;
+			$itemNumberContainer.html($itemNumberTotal);
+		}
+	});
+})
