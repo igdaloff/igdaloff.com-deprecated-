@@ -28,16 +28,16 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-size: 62.5%; /*1em = 10px*/
-	font-family: @serif;
+	font: normal 100%/1.5 @serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background-color: @black;
 	background: url(../images/bg.gif);
 	color: @white;
+	text-rendering: optimizeLegibility;
 }
 ol, ul {
 	list-style: none;
-}
-li {
-	float: left;
 }
 table {
 	border-collapse: collapse;
@@ -53,7 +53,11 @@ a, a:link, a:visited{
 	text-decoration: underline;
 }
 
-*{
+a, img{
+	border: none;
+}
+
+*, *:before, *:after{
 	.box-sizing;
 }
 
@@ -168,6 +172,7 @@ COLORS
 @black	: #2f2f2f;
 @white	: #fff;
 @grey		: #999;
+@orange	: #e34000;
 
 /*------------------------------
 FONTS
@@ -181,39 +186,31 @@ FONTS
 /*------------------------------
 TYPOGRAPHY
 ------------------------------*/
-h1{
-	display: inline-block;
-	width: 100%;
-	margin-bottom: .25em;
-	font-family: @sans;
-	font-size: 5.6em;
-	font-weight: 700;
+h2, h3, h4{
+	letter-spacing: 2px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 h2{
-	float: left;
 	font-family: @sans;
 	font-weight: 700;
-	font-size: 1.2em;
-	letter-spacing: 2px;
-	text-transform: uppercase;
 }
 
 h3{
-	margin-bottom: 0.5em;
 	font-family: @sans;
-	text-transform: uppercase;
+	font-size: 0.8em;
 	font-weight: 700;
-	letter-spacing: 2px;
+}
+
+h4{
+	font-family: @sans;
+	font-size: 0.9em;
+	font-weight: 700;
 }
 
 p{
-	margin-bottom:1.25em;
-	font-size: 1.1em;
-	font-weight: 500;
-	line-height: 1.1;
+	line-height: 1.2;
+	font-size: 0.8em;
 }
 
 /*------------------------------
@@ -221,6 +218,16 @@ HEADER
 ------------------------------*/
 header{
 	margin-top: 4em;
+}
+
+h1{
+	display: inline-block;
+	width: 100%;
+	font-family: @sans;
+	font-size: 5.6em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .off-wrap{
@@ -240,17 +247,21 @@ header{
 ABOUT
 ------------------------------*/
 .about{
+	margin: 0 10%;
 
 	.about-copy{
-		padding: 0 10%;
-		font-size: 1.5em;
+		font-size: 1.3em;
+		line-height: 1.25;
 	}
+}
+
+.social{
+	margin-top: 1em;
 
 	a{
 		display: inline-block;
 		margin: 0 0.5em;
 		font-family: @serif;
-		font-size: 1.1em;
 		color: @white;
 		.transition;
 
@@ -260,73 +271,6 @@ ABOUT
 	}
 }
 
-/*------------------------------
-WORK
-------------------------------*/
-.work{
-	margin-top: 6em;
-	text-align: left;
-}
-
-.work-item{
-	margin-bottom: 4em;
-	border-bottom: 1px solid @grey;
-}
-
-.work-header{
-	margin-bottom: 2em;
-	display: inline-block;
-	width: 100%;
-}
-
-.work-nav{
-	float: right;
-	font-size: 0.9em;
-
-	a{
-		margin: 0 0.25em;
-	}
-}
-
-.work-item-count{
-	margin-left: 0.5em;
-	opacity: 0.5;
-	float: right;
-}
-
-.work-carousel{
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-
- li{
-	 -webkit-backface-visibility: hidden;
-	  position: absolute;
-	  display: none;
-	  width: 100%;
-	  left: 0;
-	  top: 0;
-
-	  &:first-child{
-		  position: relative;
-		  display: block;
-		  float: left;
-	  }
-	}
-
-	img{
-	  display: block;
-	  height: auto;
-	  float: left;
-	  width: 100%;
-	  border: 0;
-	}
-}
-
-.work-copy{
-	margin: 2em 0;
-}
-
+@import url('work.less');
+@import url('resume.less');
 @import url('media-queries.less');

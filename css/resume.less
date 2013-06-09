@@ -1,0 +1,51 @@
+/*------------------------------
+RESUME
+------------------------------*/
+.resume{
+	padding: 2em;
+	margin: 2em auto 0;
+	text-align: left;
+	background: @white;
+	color: @black;
+	border-radius: 1px;
+
+
+	h2{
+		margin-bottom: 0.5em;
+		font-size: 1.1em;
+		border-bottom: 1px solid @black;
+	}
+
+	h3{
+		font-size: 0.8em;
+	}
+
+	h4{
+		font-size: 0.8em;
+	}
+
+	h4{
+		color: @grey;
+
+		span{
+			float: right;
+		}
+	}
+
+	ul{
+		margin: 0 0 1em 0.9em;
+		list-style-type: circle;
+
+		li{
+			margin-bottom: 0.5em;
+			font-size: 0.8em;
+			line-height: 1.25;
+		}
+	}
+}
+
+@media screen and (min-width: 37.5em) { /*600px*/
+	.resume{
+		padding: 2em 4em;
+	}
+}

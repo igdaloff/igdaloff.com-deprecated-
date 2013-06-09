@@ -2,14 +2,14 @@
 <html>
  	<head>
  		<meta charset="utf-8">
- 		<title>Nathan Igdaloff's Portfolio</title>
+ 		<title>Nathan Igdaloff - UX Designer / Web Developer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
 		<!-- STYLES -->
- 		<link rel="stylesheet" href="css/styles.css" media="screen" />
+ 		<link rel="stylesheet" href="/css/styles.css" media="screen" />
 
  		<!-- TYPEKIT -->
 		<script type="text/javascript" src="//use.typekit.net/pmn4fwk.js"></script>
@@ -34,18 +34,21 @@
  	<body>
  		<div class="wrapper">
  			<header>
- 				<h1>Nathan Igdaloff</h1>
+ 				<a href="/"><h1>Nathan Igdaloff</h1></a>
  				<div class="about">
 	 				<p class="about-copy">I'm a front-end developer / UX designer at Made Movement in Boulder, CO. I'll be adding work to this site soon. Until then you can use the links below to get in touch. </p>
 		 			<div class="social">
 		 				<a target="_blank" href="http://linkedin.com/in/nathanigdaloff">LinkedIn</a>
 		 				<a target="_blank" href="http://twitter.com/igdaloff">Twitter</a>
-		 				<a href="#">Résumé</a>
+		 				<a href="/resume">Résumé</a>
+		 				<a href="#">Timeline</a>
 		 			</div>
  				</div>
  			</header>
 
  			<section class="work">
+
+ 				<!-- NEW BELGIUM -->
  				<div class="work-item">
 	 				<div class="work-header">
 		 				<h2>New Belgium Brewing</h2>
@@ -72,23 +75,64 @@
 		 			</div>
  				</div>
 
+ 				<!-- FRED WATER -->
  				<div class="work-item">
 	 				<div class="work-header">
 		 				<h2>Fred Water</h2>
+		 				<div class="work-nav">
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">6</span></span>
+		 				</div>
+	 				</div>
+
+	 				<ul class="work-carousel" id="work-carousel2">
+	 					<li><img class="desktop" src="images/fred/fred-1.jpg" alt="Fred Comp 1"></li>
+	 					<li><img class="desktop" src="images/fred/fred-2.jpg" alt="Fred Comp 2"></li>
+	 					<li><img class="desktop" src="images/fred/fred-3.jpg" alt="Fred Comp 3"></li>
+	 					<li><img src="images/fred/fred-4.png" alt="Fred Comp 4"></li>
+	 					<li><img src="images/fred/fred-5.png" alt="Fred Comp 5"></li>
+	 				</ul>
+
+	 				<div class="work-copy">
+	 					<div class="work-copy-desc">
+			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. Enter Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>My Roles</h3>
+			 				<p>Lead Responsive Design, Front-End Development</p>
+			 				<h3>Link</h3>
+			 				<p><a href="//fredwater.com">Fredwater.com</a></p>
+	 					</div>
+		 			</div>
+		 		</div>
+
+		 		<!-- MADE MOVEMENT -->
+ 				<div class="work-item">
+	 				<div class="work-header">
+		 				<h2>Made Movement</h2>
 		 				<div class="work-nav">
 		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">4</span></span>
 		 				</div>
 	 				</div>
 
-	 				<ul class="work-carousel" id="work-carousel2">
-	 					<li><img src="images/fred/fred-2.jpg" alt="Fred Comp 1"></li>
-	 					<li><img src="images/fred/fred-1.jpg" alt="New Belgium Beer Mode"></li>
+	 				<ul class="work-carousel" id="work-carousel3">
+	 					<li><img class="desktop" src="images/movement/movement-1.jpg" alt="Movement Comp 1"></li>
+	 					<li><img class="desktop" src="images/movement/movement-2.png" alt="Movement Comp 2"></li>
+	 					<li><img src="images/movement/movement-3.png" alt="Movement Comp 3"></li>
+	 					<li><img src="images/movement/movement-4.png" alt="Movement Comp 4"></li>
 	 				</ul>
 
 	 				<div class="work-copy">
-	 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.</p>
+	 					<div class="work-copy-desc">
+			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. Enter Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>My Roles</h3>
+			 				<p>Front-End Development, User Experience Design, Responsive Design, Wordpress Integration</p>
+			 				<h3>Link</h3>
+			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
+	 					</div>
 		 			</div>
- 				</div>
+		 		</div>
 
  			</section>
 
@@ -96,10 +140,10 @@
 
  		<!-- SCRIPTS -->
  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery.fittext.js"></script>
-		<script src="js/jquery.lettering.js"></script>
-		<script src="js/responsiveslides.js"></script>
-		<script src="js/script.js"></script>
+		<script src="/js/jquery.fittext.js"></script>
+		<script src="/js/jquery.lettering.js"></script>
+		<script src="/js/responsiveslides.js"></script>
+		<script src="/js/script.js"></script>
 
  	</body>
 </html>
