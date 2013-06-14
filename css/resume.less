@@ -3,17 +3,18 @@ RESUME
 ------------------------------*/
 .resume{
 	padding: 2em;
-	margin: 2em auto 0;
+	margin: 2em auto 4em;
 	text-align: left;
 	background: @white;
 	color: @black;
 	border-radius: 1px;
+	.clearfix;
 
 
 	h2{
-		margin-bottom: 0.5em;
+		margin-bottom: 0.25em;
 		font-size: 1.1em;
-		border-bottom: 1px solid @black;
+		border-bottom: 1px solid @grey;
 	}
 
 	h3{
@@ -21,10 +22,7 @@ RESUME
 	}
 
 	h4{
-		font-size: 0.8em;
-	}
-
-	h4{
+		font-size: 0.7em;
 		color: @grey;
 
 		span{
@@ -34,18 +32,61 @@ RESUME
 
 	ul{
 		margin: 0 0 1em 0.9em;
-		list-style-type: circle;
-
-		li{
-			margin-bottom: 0.5em;
-			font-size: 0.8em;
-			line-height: 1.25;
-		}
+		list-style-type: disc;
 	}
+
+	li, p{
+		margin-bottom: 0.5em;
+		font-size: 0.8em;
+		line-height: 1.25;
+	}
+
+}
+
+.resume-dates{
+	float: right;
+	font-size: 0.7em;
+	color: @grey;
+}
+
+.resume-content-item{
+	margin-bottom: 1em;
 }
 
 @media screen and (min-width: 37.5em) { /*600px*/
 	.resume{
 		padding: 2em 4em;
+	}
+}
+
+@media screen and (min-width: 75em) { /*1200px*/
+
+	.resume{
+
+		h2{
+			border: none;
+			margin: 0;
+		}
+	}
+
+	.resume-section{
+		float: left;
+		width: 100%;
+		padding-top: 1em;
+		margin-bottom: 1em;
+		border-top: 1px solid #ccc;
+	}
+
+	.resume-header{
+		float: left;
+		width: 20%;
+	}
+
+	.resume-content{
+		float: left;
+		width: 77.5%;
+		padding-left: 2.5%;
+		margin-left: 1.25%;
+		border-left: 1px solid #ccc;
 	}
 }
