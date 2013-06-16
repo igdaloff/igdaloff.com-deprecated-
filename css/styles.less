@@ -169,10 +169,11 @@ TRANSITIONS
 /*------------------------------
 COLORS
 ------------------------------*/
-@black	: #2f2f2f;
-@white	: #fff;
-@grey		: #999;
-@orange	: #e34000;
+@black			: #2f2f2f;
+@white			: #fff;
+@grey				: #999;
+@light-grey	: #ccc;
+@orange			: #e34000;
 
 /*------------------------------
 FONTS
@@ -260,20 +261,64 @@ ABOUT
 	}
 }
 
-.social{
+.links{
 	margin-top: 1em;
+
+	&>li{
+		margin: 0 0.5em;
+
+		&:hover > a{
+			line-height: 0;
+			display: inline-block;
+		}
+	}
+
+	li{
+		position: relative;
+		display: inline-block;
+	}
 
 	a{
 		display: inline-block;
-		margin: 0 0.5em;
 		font-family: @serif;
 		color: @white;
 		.transition;
+	}
+}
+
+.social-links{
+	display: none;
+	position: absolute;
+	top: 1.9em;
+	left: 0;
+
+	li{
+		position: relative;
+		float: left;
+		display: block;
+		margin-bottom: 0.5em;
+	}
+
+	a{
+		height: 1.75em;
+		line-height: 1.9;
+		padding: 0 0.5em;
+		background: @white;
+		color: @black;
+		border-radius: 2px;
+		text-decoration: none;
+		font-size: 0.8em;
+		.transition;
+		-webkit-backface-visibility: hidden;
 
 		&:hover{
-			line-height: 0;
+			background: #ccc;
 		}
 	}
+}
+
+.social-link-active{
+	line-height: 0;
 }
 
 @import url('work.less');

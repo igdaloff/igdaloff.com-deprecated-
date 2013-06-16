@@ -2,7 +2,7 @@
 WORK
 ------------------------------*/
 .work{
-	margin-top: 6em;
+	margin-top: 8em;
 	text-align: left;
 
 	h2{
@@ -28,6 +28,11 @@ WORK
 
 	a{
 		margin: 0 0.25em;
+		.transition;
+
+		&:hover{
+			color: @light-grey;
+		}
 	}
 }
 
@@ -78,6 +83,14 @@ WORK
 .work-copy{
 	padding: 2em 0 1.25em;
 	border-bottom: 1px solid @grey;
+
+	a{
+		.transition;
+
+		&:hover{
+			color: @light-grey;
+		}
+	}
 }
 
 .work-copy-roles{

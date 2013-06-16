@@ -278,12 +278,22 @@ ABOUT
   font-size: 1.3em;
   line-height: 1.25;
 }
-.social {
+.links {
   margin-top: 1em;
 }
-.social a {
-  display: inline-block;
+.links > li {
   margin: 0 0.5em;
+}
+.links > li:hover > a {
+  line-height: 0;
+  display: inline-block;
+}
+.links li {
+  position: relative;
+  display: inline-block;
+}
+.links a {
+  display: inline-block;
   font-family: "chaparral-pro", helvetica, serif;
   color: #ffffff;
   -webkit-transition: -webkit-transform 0.2s ease-out, all 0.2s ease-out;
@@ -291,14 +301,44 @@ ABOUT
   -o-transition: -o-transform 0.2s ease-out, all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.social a:hover {
+.social-links {
+  display: none;
+  position: absolute;
+  top: 1.9em;
+  left: 0;
+}
+.social-links li {
+  position: relative;
+  float: left;
+  display: block;
+  margin-bottom: 0.5em;
+}
+.social-links a {
+  height: 1.75em;
+  line-height: 1.9;
+  padding: 0 0.5em;
+  background: #ffffff;
+  color: #2f2f2f;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 0.8em;
+  -webkit-transition: -webkit-transform 0.2s ease-out, all 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out, all 0.2s ease-out;
+  -o-transition: -o-transform 0.2s ease-out, all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+.social-links a:hover {
+  background: #ccc;
+}
+.social-link-active {
   line-height: 0;
 }
 /*------------------------------
 WORK
 ------------------------------*/
 .work {
-  margin-top: 6em;
+  margin-top: 8em;
   text-align: left;
 }
 .work h2 {
@@ -320,6 +360,13 @@ WORK
 }
 .work-nav a {
   margin: 0 0.25em;
+  -webkit-transition: -webkit-transform 0.2s ease-out, all 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out, all 0.2s ease-out;
+  -o-transition: -o-transform 0.2s ease-out, all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.work-nav a:hover {
+  color: #cccccc;
 }
 .work-item-count {
   margin-left: 0.5em;
@@ -361,6 +408,15 @@ WORK
 .work-copy {
   padding: 2em 0 1.25em;
   border-bottom: 1px solid #999999;
+}
+.work-copy a {
+  -webkit-transition: -webkit-transform 0.2s ease-out, all 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out, all 0.2s ease-out;
+  -o-transition: -o-transform 0.2s ease-out, all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.work-copy a:hover {
+  color: #cccccc;
 }
 .work-copy-roles p {
   margin-bottom: 1em;

@@ -33,18 +33,7 @@
  	</head>
  	<body>
  		<div class="wrapper">
- 			<header>
- 				<a href="/"><h1>Nathan Igdaloff</h1></a>
- 				<div class="about">
-	 				<p class="about-copy">I'm a front-end developer / UX designer at Made Movement in Boulder, CO. I'll be adding work to this site soon. Until then you can use the links below to get in touch. </p>
-		 			<div class="social">
-		 				<a target="_blank" href="http://linkedin.com/in/nathanigdaloff">LinkedIn</a>
-		 				<a target="_blank" href="http://twitter.com/igdaloff">Twitter</a>
-		 				<a href="/resume">Résumé</a>
-		 			</div>
- 				</div>
- 			</header>
-
+	 		<?php include 'header.php'; ?>
  			<section class="work">
 
  				<!-- NEW BELGIUM -->
@@ -68,7 +57,7 @@
 	 					<div class="work-copy-roles">
 	 						<h3>My Role</h3>
 			 				<p>Front-End Mobile Development</p>
-			 				<h3>Links</h3>
+			 				<h3>Download</h3>
 			 				<p><a href="https://itunes.apple.com/us/app/newbelgium/id510434598?mt=8">iPhone</a>&nbsp; / &nbsp;<a href="https://play.google.com/store/apps/details?id=com.NewBelgium.NBB&hl=en">Android</a></p>
 	 					</div>
 		 			</div>
@@ -99,7 +88,7 @@
 	 					<div class="work-copy-roles">
 	 						<h3>My Roles</h3>
 			 				<p>Lead Responsive Design, Front-End Development</p>
-			 				<h3>Link</h3>
+			 				<h3>View Project</h3>
 			 				<p><a href="//fredwater.com">Fredwater.com</a></p>
 	 					</div>
 		 			</div>
@@ -128,7 +117,7 @@
 	 					<div class="work-copy-roles">
 	 						<h3>My Roles</h3>
 			 				<p>Front-End Development, User Experience Design, Responsive Design, Wordpress Integration</p>
-			 				<h3>Link</h3>
+			 				<h3>View Project</h3>
 			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
 	 					</div>
 		 			</div>

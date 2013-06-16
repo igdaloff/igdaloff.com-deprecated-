@@ -14,6 +14,15 @@ $('h1').hover( function(){
 
 });
 
+//SOCIAL DROPDOWN
+var $social = $('.social');
+
+$social.click( function(){
+	$('.social-links').slideToggle();
+	$(this).toggleClass('social-link-active');
+	event.preventDefault();
+});
+
 //WORK CAROUSEL
 $(window).load( function(){
   $(".work-carousel").responsiveSlides({

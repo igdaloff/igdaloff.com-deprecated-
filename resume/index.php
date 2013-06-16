@@ -36,7 +36,6 @@
  			<header>
  				<a href="/"><h1>Nathan Igdaloff</h1></a>
  				<div class="about">
-	 				<p class="about-copy">I'm a front-end developer / UX designer at Made Movement in Boulder, CO. I'll be adding work to this site soon. Until then you can use the links below to get in touch. </p>
 		 			<div class="social">
 		 				<a target="_blank" href="http://linkedin.com/in/nathanigdaloff">LinkedIn</a>
 		 				<a target="_blank" href="http://twitter.com/igdaloff">Twitter</a>
@@ -73,10 +72,10 @@
 	 					<div class="resume-content-item">
 		 					<span class="resume-dates">2007-2008</span>
 				 			<h3>The Agency Group</h3>
-				 			<h4>Intern</h4>
+				 			<h4>Intern - Music Booking</h4>
 				 			<ul>
 					 			<li>Collaborated with international team members to compose and analyze contracts for promoters and Billboard Top-100 artists.</li>
-					 			<li>Contacted promoters throughout Europe to gather event data and distributed it to senior agents.</li>
+					 			<li>Contacted promoters throughout Europe and the US to gather event data and distributed it to senior agents.</li>
 					 			<li>Researched, organized, and distributed worldwide event information about clients and competitors.</li>
 				 			</ul>
 	 					</div>
