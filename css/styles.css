@@ -171,7 +171,6 @@ CONTAINERS
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
   display: none;
 }
 /*-------------------------------------------------------------------------
@@ -243,7 +242,8 @@ sub {
 HEADER
 ------------------------------*/
 header {
-  margin-top: 4em;
+  margin: 8em 0;
+  text-align: center;
 }
 h1 {
   display: inline-block;
@@ -304,7 +304,7 @@ ABOUT
 .social-links {
   display: none;
   position: absolute;
-  top: 1.9em;
+  top: 1.85em;
   left: 0;
 }
 .social-links li {
@@ -337,10 +337,6 @@ ABOUT
 /*------------------------------
 WORK
 ------------------------------*/
-.work {
-  margin-top: 8em;
-  text-align: left;
-}
 .work h2 {
   float: left;
 }

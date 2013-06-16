@@ -1,11 +1,10 @@
 <header>
 	<a href="/"><h1>Nathan Igdaloff</h1></a>
 	<div class="about">
-		<p class="about-copy">I'm a developer and experience designer at Made Movement in Boulder, CO. I'll be adding work to this site soon. Until then you can use the links below to get in touch. </p>
+		<p class="about-copy">I'm a developer and experience designer at Made Movement in Boulder, CO. I'm passionate about music, responsive design, and the future of the web. Thanks for visiting my&nbsp;site.</p>
 		<ul class="links">
-			<li><a target="_blank" href="/bio">Bio</a></li>
 			<li><a href="/resume">Résumé</a></li>
-			<li><a href="mailto:louis&#64;nathan&#46;gmail.com">Email</a></li>
+			<li><a href="mailto:louis&#46;nathan&#64;gmail.com">Email</a></li>
 			<li>
 				<a href="" class="social">Social</a>
 				<ul class="social-links">

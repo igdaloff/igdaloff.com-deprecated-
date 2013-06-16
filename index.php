@@ -15,9 +15,6 @@
 		<script type="text/javascript" src="//use.typekit.net/pmn4fwk.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
- 		<!-- GOOGLE WEBFONTS -->
- 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
  		<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-29359807-1']);
@@ -52,7 +49,7 @@
 
 	 				<div class="work-copy">
 	 					<div class="work-copy-desc">
-			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. Enter Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
+			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. I developed Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>My Role</h3>
@@ -83,7 +80,7 @@
 
 	 				<div class="work-copy">
 	 					<div class="work-copy-desc">
-			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. Enter Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
+		 					<p>Fred Water is a bottled water company on a mission to get people to drink more water and less sugar. They encourage people to respect the Earth by refilling and recycling their bottles instead of trashing them. I developed and helped design their brand and ecommerce&nbsp;presence.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>My Roles</h3>
@@ -112,13 +109,41 @@
 
 	 				<div class="work-copy">
 	 					<div class="work-copy-desc">
-			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. Enter Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
+		 					<p>Made Movement is a marketing agency dedicated to supporting a resurgence in American manufacturing. In addition to displaying their work, the agency needed to demonstrate how they live up to their made-in-the-USA&nbsp;mission. I helped bring that mission, and the agency, to life online.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>My Roles</h3>
 			 				<p>Front-End Development, User Experience Design, Responsive Design, Wordpress Integration</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
+	 					</div>
+		 			</div>
+		 		</div>
+
+		 		<!-- MADE COLLECTION -->
+ 				<div class="work-item">
+	 				<div class="work-header">
+		 				<h2>Made Collection</h2>
+		 				<div class="work-nav">
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">3</span></span>
+		 				</div>
+	 				</div>
+
+	 				<ul class="work-carousel" id="work-carousel3">
+	 					<li><img class="desktop" src="images/collection/collection-1.png" alt="Collection Comp 1"></li>
+	 					<li><img class="desktop" src="images/collection/collection-2.png" alt="Collection Comp 2"></li>
+	 					<li><img class="desktop" src="images/collection/collection-3.png" alt="Collection Comp 3"></li>
+	 				</ul>
+
+	 				<div class="work-copy">
+	 					<div class="work-copy-desc">
+		 					<p>Made Collection is an online store featuring quality made in America products. With the rebirth of American manufacturing, all of the sudden there are more and more stylish, sexy, premium products being made here. Made Collection sells those products.
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>My Roles</h3>
+			 				<p>Front-End Development, Ecommerce and Marketing&nbsp;Analytics</p>
+			 				<h3>View Project</h3>
+			 				<p><a href="//madecollection.com">Madecollection.com</a></p>
 	 					</div>
 		 			</div>
 		 		</div>

@@ -33,16 +33,7 @@
  	</head>
  	<body>
  		<div class="wrapper">
- 			<header>
- 				<a href="/"><h1>Nathan Igdaloff</h1></a>
- 				<div class="about">
-		 			<div class="social">
-		 				<a target="_blank" href="http://linkedin.com/in/nathanigdaloff">LinkedIn</a>
-		 				<a target="_blank" href="http://twitter.com/igdaloff">Twitter</a>
-		 				<a href="/resume">Résumé</a>
-		 			</div>
- 				</div>
- 			</header>
+	 		<?php include '../header.php'; ?>
 
  			<section class="resume">
  				<div class="resume-section">
@@ -98,9 +89,9 @@
 		 					<span class="resume-dates">2004-2009</span>
 				 			<h3>Indiana University, Kelley School of&nbsp;Business</h3>
 				 			<h4>Master of Business Administration</h4>
-				 			<p>3/2 Accounting Program, GPA: 3.49</p>
+				 			<p>3/2 Accounting Program, GPA: 3.5</p>
 				 			<h4>Bachelor of Science in Business</h4>
-				 			<p>Major in Accounting, Minor in Music Studies, GPA: 3.58</p>
+				 			<p>Major in Accounting, Minor in Music Studies, GPA: 3.6</p>
 	 					</div>
 	 				</div>
 	 				<div class="resume-content">
