@@ -105,7 +105,7 @@
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
 				 			<h3>Development</h3>
-				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, Command Line</p>
+				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI</p>
 	 					</div>
 	 					<div class="resume-content-item">
 				 			<h3>Design</h3>
