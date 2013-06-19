@@ -141,7 +141,7 @@
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>My Roles</h3>
-			 				<p>Front-End Development, Ecommerce and Marketing&nbsp;Analytics</p>
+			 				<p>Front-End Development, E-commerce and Marketing&nbsp;Analytics</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//madecollection.com">Madecollection.com</a></p>
 	 					</div>

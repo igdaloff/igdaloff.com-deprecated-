@@ -17,5 +17,3 @@ server "54.218.28.224", :app, :primary => true
 ssh_options[:forward_agent] = true
 ssh_options[:auth_methods] = ["publickey"]
 ssh_options[:keys] = ["~/.ssh/igdaloff-server.pem"]
-
-# default_run_options[:pty] = true
