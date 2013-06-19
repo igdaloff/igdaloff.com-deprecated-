@@ -94,7 +94,6 @@ SEMANTIC CSS
 	}
 }
 
-
 /*-------------------------------------------------------------------------
 GRID
 -------------------------------------------------------------------------*/
@@ -149,7 +148,7 @@ BOX-SIZING
 /*-------------------------------------------------------------------------
 BOX-SHADOW
 -------------------------------------------------------------------------*/
-.box-shadow(@arguments1, @arguments2) {
+.box-shadow(@arguments1, @arguments2: transparent 0 0 0 0) {
   -webkit-box-shadow: @arguments1, @arguments2;
   -moz-box-shadow: @arguments, @arguments2;
   box-shadow: @arguments, @arguments2;
@@ -177,16 +176,13 @@ COLORS
 /*------------------------------
 FONTS
 ------------------------------*/
-@font-face {font-family: 'Entypo';src:url('../fonts/entypo/entypo.eot');src:url('../fonts/entypo/entypo.eot?#iefix') format('embedded-opentype'),url('../fonts/entypo/entypo.woff') format('woff'),url('../fonts/entypo/entypo.ttf') format('truetype'),url('../fonts/entypo/entypo.svg') format('svg');font-weight:normal;font-style:normal;}
-@font-face {font-family: 'EntypoSocial';src:url('../fonts/entypo/entypo-social.eot');src:url('../fonts/entypo/entypo-social.eot?#iefix') format('embedded-opentype'),url('../fonts/entypo/entypo-social.woff') format('woff'),url('../fonts/entypo/entypo-social.ttf') format('truetype'),url('../fonts/entypo/entypo-social.svg') format('svg');font-weight:normal;font-style:normal;}
-
 @sans: "brandon-grotesque", helvetica, sans-serif;
 @serif: "chaparral-pro", helvetica, serif;
 
 /*------------------------------
 TYPOGRAPHY
 ------------------------------*/
-h2, h3, h4{
+h2, h3, h4, h5{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -196,13 +192,13 @@ h2{
 	font-weight: 700;
 }
 
-h3{
+h3, h4{
 	font-family: @sans;
 	font-size: 0.8em;
 	font-weight: 700;
 }
 
-h4{
+h5{
 	font-family: @sans;
 	font-size: 0.9em;
 	font-weight: 700;

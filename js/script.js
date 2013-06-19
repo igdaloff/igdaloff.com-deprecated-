@@ -14,6 +14,25 @@ $('h1').hover( function(){
 
 });
 
+//RESUME DROP-IN
+$('body').click( function(){
+	$('.resume').css('left','-100%');
+	$('.work').css('opacity', '1');
+	$('.about').show();
+
+	setTimeout( function(){
+		$('.resume').css('left','10%').hide().removeClass('resume-drop');
+	}, 400);
+});
+
+$('#resume-link, .resume').click( function(e){
+	$('.resume').fadeIn(300).addClass('resume-drop');
+	$('.about').fadeOut(100);
+	e.stopPropagation();
+
+	$('.work').css('opacity', '0.3');
+});
+
 //SOCIAL DROPDOWN
 var $social = $('.social');
 

@@ -150,6 +150,99 @@
 
  			</section>
 
+ 			<!-- RESUME -->
+ 			<section class="resume">
+ 				<div class="resume-header">
+ 					<div class="name-title">
+	 					<h2>Nathan Igdaloff</h2>
+	 					<h4>Web Developer, UX Designer</h4>
+ 					</div>
+ 					<div class="resume-contact">
+	 					<a href="tel:6149379977">614-937-9977</a>
+	 					<a href="mailto:louis&#46;nathan&#64;gmail.com">louis.nathan@gmail.com</a>
+	 					<a class="pdf-download" href="">Download PDF</a>
+ 					</div>
+ 				</div>
+
+ 				<div class="resume-section">
+	 				<div class="resume-section-header">
+			 			<h3>Experience</h2>
+	 				</div>
+	 				<div class="resume-content">
+	 					<div class="resume-content-item">
+		 					<span class="resume-dates">2012-2013</span>
+				 			<h4>Made Movement</h3>
+				 			<h5>Creative Technologist, Technical&nbsp;Lead</h4>
+				 			<ul>
+				 				<li>Helped launch <a href="//mademovement.com">Made Movement</a>, a marketing agency dedicated to supporting a resurgence in American manufacturing. </li>
+				 				<li>Administered the first developer internship program at Made. This included interviewing candidates, determining and managing intern responsibilities, conducting code reviews, and providing weekly status updates.</li>
+				 				<li>Ensured code was organized cleanly, functioned properly, and was written efficiently.</li>
+				 			</ul>
+	 					</div>
+	 					<div class="resume-content-item">
+		 					<span class="resume-dates">2009-2011</span>
+				 			<h4>M<sub>c</sub>Gladrey & Pullen</h3>
+				 			<h5>Senior IT Consultant</h4>
+				 			<ul>
+					 			<li>Conducted client information technology reviews in support of financial audit engagements as both a solo consultant as well as a team leader.</li>
+					 			<li>Audited Fortune 500 organizations to verify compliance with the information technology portions of the Sarbanes-Oxley Act.</li>
+				 			</ul>
+	 					</div>
+	 					<div class="resume-content-item">
+		 					<span class="resume-dates">2007-2008</span>
+				 			<h4>The Agency Group</h3>
+				 			<h5>Intern - Music Booking</h4>
+				 			<ul>
+					 			<li>Collaborated with international team members to compose and analyze contracts for promoters and Billboard Top-100 artists.</li>
+					 			<li>Contacted promoters throughout Europe and the US to gather event data and distributed it to senior agents.</li>
+					 			<li>Researched, organized, and distributed worldwide event information about clients and competitors.</li>
+				 			</ul>
+	 					</div>
+	 				</div>
+ 				</div>
+
+ 				<div class="resume-section">
+	 				<div class="resume-section-header">
+			 			<h3>Education</h2>
+	 				</div>
+	 				<div class="resume-content">
+	 					<div class="resume-content-item">
+				 			<span class="resume-dates">2011-2012</span>
+				 			<h4>Boulder Digital Works</h3>
+				 			<h5>Graduate, Design and Development</h4>
+				 			<p>Boulder Digital Works is an intensive, project-based design and development program at the University of Colorado. Courses include front- and back-end development, graphic design, user experience design, branding, strategy, and entrepreneurship.</p>
+	 					</div>
+
+	 					<div class="resume-content-item">
+		 					<span class="resume-dates">2004-2009</span>
+				 			<h4>Indiana University, Kelley School of&nbsp;Business</h3>
+				 			<h5>Master of Business Administration</h4>
+				 			<p>3/2 Accounting Program, GPA: 3.5</p>
+				 			<h5>Bachelor of Science in Business</h4>
+				 			<p>Major in Accounting, Minor in Music Studies, GPA: 3.6</p>
+	 					</div>
+	 				</div>
+	 				<div class="resume-content">
+	 				</div>
+ 				</div>
+
+ 				<div class="resume-section">
+	 				<div class="resume-section-header">
+			 			<h3>Skills</h2>
+	 				</div>
+	 				<div class="resume-content">
+	 					<div class="resume-content-item">
+				 			<h4>Development</h3>
+				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI</p>
+	 					</div>
+	 					<div class="resume-content-item">
+				 			<h4>Design</h3>
+				 			<p>User Experience, User Interface, Art Direction</p>
+	 					</div>
+	 				</div>
+ 				</div>
+ 			</section>
+
  		</div>
 
  		<!-- SCRIPTS -->
