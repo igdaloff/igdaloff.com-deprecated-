@@ -1,7 +1,6 @@
 set :branch, "master"
-server 'ec2-54-218-36-67.us-west-2.compute.amazonaws.com', :app, :web, :db, :primary => true
-set(:deploy_to) { '/' }
+set(:deploy_to) { '/home/ubuntu/' }
 
-set :user, "ec2-user"
-ssh_options[:keys] = %w(~/.ssh/igdaloff-server.pem)
-
+#set :user, "ec2-user"
+#server 'ec2-54-218-35-67.us-west-2.compute.amazonaws.com', :app, :web, :db, :primary => true
+#ssh_options[:keys] = [File.join(ENV["HOME"], ".ssh", "igdaloff-server.pem")]
