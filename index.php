@@ -137,7 +137,7 @@
 
 	 				<div class="work-copy">
 	 					<div class="work-copy-desc">
-		 					<p>Made Collection is an online store featuring quality made in America products. With the rebirth of American manufacturing, all of the sudden there are more and more stylish, sexy, premium products being made here. Made Collection sells those products.
+		 					<p>With the rebirth of American manufacturing, all of the sudden there are more and more stylish, sexy, premium products being made here. Made Collection sells those products.
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>My Roles</h3>
