@@ -10,7 +10,7 @@ set :repository, "git@github.com:igdaloff/igdaloff.com.git"
 set :scm_passphrase, ""
 
 set :user, "ubuntu"
-set :deploy_to, '/home/ubuntu/'
+#set :deploy_to, '/home/ubuntu/'
 
 server "54.218.28.224", :app, :primary => true
 
