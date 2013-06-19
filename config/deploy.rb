@@ -3,7 +3,7 @@ set :default_stage, "dev"
 
 require 'capistrano/ext/multistage'
 
-set :application, "igdaloff_site"
+set :application, "igdaloff.com"
 
 set :scm, :git
 set :repository, "git@github.com:igdaloff/igdaloff.com.git"
