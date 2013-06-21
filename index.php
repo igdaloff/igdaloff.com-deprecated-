@@ -242,6 +242,7 @@
 	 				</div>
  				</div>
  			</section>
+ 			<!-- END RESUME -->
 
  		</div>
 

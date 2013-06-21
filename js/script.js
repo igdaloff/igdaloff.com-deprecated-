@@ -30,7 +30,7 @@ $('#resume-link, .resume').click( function(e){
 	$('.about').fadeOut(100);
 	e.stopPropagation();
 
-	$('.work').css('opacity', '0.3');
+	$('.work').css('opacity', '0');
 });
 
 //SOCIAL DROPDOWN
