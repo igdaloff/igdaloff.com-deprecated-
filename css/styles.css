@@ -230,7 +230,7 @@ sub {
 HEADER
 ------------------------------*/
 header {
-  margin: 8em 0;
+  margin: 3em 0;
   text-align: center;
 }
 h1 {
@@ -418,7 +418,7 @@ RESUME
   left: 10%;
   width: 80%;
   padding: 2em;
-  margin: 2em auto 4em;
+  margin: 0 auto 4em;
   text-align: left;
   background: #ffffff;
   color: #2f2f2f;
@@ -569,6 +569,9 @@ RESUME
   }
   .wrapper {
     width: 80%;
+  }
+  header {
+    margin: 8em 0;
   }
   .work-item {
     margin-bottom: 4em;

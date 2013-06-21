@@ -15,9 +15,9 @@ $('h1').hover( function(){
 });
 
 //RESUME DROP-IN
-$('body').click( function(){
+$('body').on('click', function(){
 	$('.resume').css('left','-100%');
-	$('.work').css('opacity', '1');
+	$('.work, header').css('opacity', '1');
 	$('.about').show();
 
 	setTimeout( function(){
@@ -30,7 +30,7 @@ $('#resume-link, .resume').click( function(e){
 	$('.about').fadeOut(100);
 	e.stopPropagation();
 
-	$('.work').css('opacity', '0');
+	$('.work, header').css('opacity', '0');
 });
 
 //SOCIAL DROPDOWN
