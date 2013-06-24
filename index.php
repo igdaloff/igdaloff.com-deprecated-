@@ -160,7 +160,6 @@
  					<div class="resume-contact">
 	 					<a href="tel:6149379977">614-937-9977</a>
 	 					<a href="mailto:louis&#46;nathan&#64;gmail.com">louis.nathan@gmail.com</a>
-	 					<a class="pdf-download" href="">Download PDF</a>
  					</div>
  				</div>
 
