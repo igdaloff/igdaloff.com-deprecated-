@@ -129,7 +129,7 @@
 		 				</div>
 	 				</div>
 
-	 				<ul class="work-carousel" id="work-carousel3">
+	 				<ul class="work-carousel" id="work-carousel4">
 	 					<li><img class="desktop" src="images/collection/collection-1.png" alt="Collection Comp 1"></li>
 	 					<li><img class="desktop" src="images/collection/collection-2.png" alt="Collection Comp 2"></li>
 	 					<li><img class="desktop" src="images/collection/collection-3.png" alt="Collection Comp 3"></li>
@@ -165,13 +165,13 @@
 
  				<div class="resume-section">
 	 				<div class="resume-section-header">
-			 			<h3>Experience</h2>
+			 			<h3>Experience</h3>
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
 		 					<span class="resume-dates">2012-2013</span>
-				 			<h4>Made Movement</h3>
-				 			<h5>Creative Technologist, Technical&nbsp;Lead</h4>
+				 			<h4>Made Movement</h4>
+				 			<h5>Creative Technologist, Technical&nbsp;Lead</h5>
 				 			<ul>
 				 				<li>Helped launch <a href="//mademovement.com">Made Movement</a>, a marketing agency dedicated to supporting a resurgence in American manufacturing. </li>
 				 				<li>Administered the first developer internship program at Made. This included interviewing candidates, determining and managing intern responsibilities, conducting code reviews, and providing weekly status updates.</li>
@@ -180,8 +180,8 @@
 	 					</div>
 	 					<div class="resume-content-item">
 		 					<span class="resume-dates">2009-2011</span>
-				 			<h4>M<sub>c</sub>Gladrey & Pullen</h3>
-				 			<h5>Senior IT Consultant</h4>
+				 			<h4>M<sub>c</sub>Gladrey & Pullen</h4>
+				 			<h5>Senior IT Consultant</h5>
 				 			<ul>
 					 			<li>Conducted client information technology reviews in support of financial audit engagements as both a solo consultant as well as a team leader.</li>
 					 			<li>Audited Fortune 500 organizations to verify compliance with the information technology portions of the Sarbanes-Oxley Act.</li>
@@ -189,8 +189,8 @@
 	 					</div>
 	 					<div class="resume-content-item">
 		 					<span class="resume-dates">2007-2008</span>
-				 			<h4>The Agency Group</h3>
-				 			<h5>Intern - Music Booking</h4>
+				 			<h4>The Agency Group</h4>
+				 			<h5>Intern - Music Booking</h5>
 				 			<ul>
 					 			<li>Collaborated with international team members to compose and analyze contracts for promoters and Billboard Top-100 artists.</li>
 					 			<li>Contacted promoters throughout Europe and the US to gather event data and distributed it to senior agents.</li>
@@ -202,22 +202,22 @@
 
  				<div class="resume-section">
 	 				<div class="resume-section-header">
-			 			<h3>Education</h2>
+			 			<h3>Education</h3>
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
 				 			<span class="resume-dates">2011-2012</span>
-				 			<h4>Boulder Digital Works</h3>
-				 			<h5>Graduate, Design and Development</h4>
+				 			<h4>Boulder Digital Works</h4>
+				 			<h5>Graduate, Design and Development</h5>
 				 			<p>Boulder Digital Works is an intensive, project-based design and development program at the University of Colorado. Courses include front- and back-end development, graphic design, user experience design, branding, strategy, and entrepreneurship.</p>
 	 					</div>
 
 	 					<div class="resume-content-item">
 		 					<span class="resume-dates">2004-2009</span>
-				 			<h4>Indiana University, Kelley School of&nbsp;Business</h3>
-				 			<h5>Master of Business Administration</h4>
+				 			<h4>Indiana University, Kelley School of&nbsp;Business</h4>
+				 			<h5>Master of Business Administration</h5>
 				 			<p>3/2 Accounting Program, GPA: 3.5</p>
-				 			<h5>Bachelor of Science in Business</h4>
+				 			<h5>Bachelor of Science in Business</h5>
 				 			<p>Major in Accounting, Minor in Music Studies, GPA: 3.6</p>
 	 					</div>
 	 				</div>
@@ -227,15 +227,15 @@
 
  				<div class="resume-section">
 	 				<div class="resume-section-header">
-			 			<h3>Skills</h2>
+			 			<h3>Skills</h3>
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
-				 			<h4>Development</h3>
+				 			<h4>Development</h4>
 				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI</p>
 	 					</div>
 	 					<div class="resume-content-item">
-				 			<h4>Design</h3>
+				 			<h4>Design</h4>
 				 			<p>User Experience, User Interface, Art Direction</p>
 	 					</div>
 	 				</div>
