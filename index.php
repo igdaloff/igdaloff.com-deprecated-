@@ -152,7 +152,6 @@
 	 					</div>
 		 			</div>
 		 		</div>
-		 		<a href="#" id="top">&uarr;</a>
  			</section>
  			<!-- End Work -->
 
