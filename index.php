@@ -29,14 +29,19 @@
 
  	</head>
  	<body>
+		<noscript>
+			<p>Javascript is currently disabled. Please <a href="http://www.google.com/support/bin/answer.py?answer=23852" target="_blank">enable javascript</a> for the optimal experience!</p>
+		</noscript>
+
  		<div class="wrapper">
 	 		<?php include 'header.php'; ?>
+
  			<section class="work">
 
  				<!-- NEW BELGIUM -->
  				<div class="work-item">
 	 				<div class="work-header">
-		 				<h2>New Belgium Brewing</h2>
+		 				<h2>New Belgium</h2>
 		 				<div class="work-nav">
 		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">2</span></span>
 		 				</div>
@@ -52,9 +57,9 @@
 			 				<p>New Belgium didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. I developed Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
-	 						<h3>My Role</h3>
+	 						<h3>Responsible For</h3>
 			 				<p>Front-End Mobile Development</p>
-			 				<h3>Download</h3>
+			 				<h3>View Project</h3>
 			 				<p><a href="https://itunes.apple.com/us/app/newbelgium/id510434598?mt=8">iPhone</a>&nbsp; / &nbsp;<a href="https://play.google.com/store/apps/details?id=com.NewBelgium.NBB&hl=en">Android</a></p>
 	 					</div>
 		 			</div>
@@ -83,7 +88,7 @@
 		 					<p>Fred Water is a bottled water company on a mission to get people to drink more water and less sugar. They encourage people to respect the Earth by refilling and recycling their bottles instead of trashing them. I developed and helped design their brand and ecommerce&nbsp;presence.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
-	 						<h3>My Roles</h3>
+	 						<h3>Responsible For</h3>
 			 				<p>Lead Responsive Design, Front-End Development</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//fredwater.com">Fredwater.com</a></p>
@@ -112,7 +117,7 @@
 		 					<p>Made Movement is a marketing agency dedicated to supporting a resurgence in American manufacturing. In addition to displaying their work, the agency needed to demonstrate how they live up to their made-in-the-USA&nbsp;mission. I helped bring that mission, and the agency, to life online.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
-	 						<h3>My Roles</h3>
+	 						<h3>Responsible For</h3>
 			 				<p>Front-End Development, User Experience Design, Responsive Design, Wordpress Integration</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
@@ -140,25 +145,27 @@
 		 					<p>With the rebirth of American manufacturing, all of the sudden there are more and more stylish, sexy, premium products being made here. Made Collection sells those products.
 	 					</div>
 	 					<div class="work-copy-roles">
-	 						<h3>My Roles</h3>
+	 						<h3>Responsible For</h3>
 			 				<p>Front-End Development, Ecommerce and Marketing&nbsp;Analytics</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//madecollection.com">Madecollection.com</a></p>
 	 					</div>
 		 			</div>
 		 		</div>
-
+		 		<a href="#" id="top">&uarr;</a>
  			</section>
+ 			<!-- End Work -->
 
  			<!-- RESUME -->
  			<section class="resume">
+ 				<span id="close-resume">&times;</span>
  				<div class="resume-header">
  					<div class="name-title">
 	 					<h2>Nathan Igdaloff</h2>
 	 					<h4>Web Developer, UX Designer</h4>
  					</div>
  					<div class="resume-contact">
-	 					<a href="tel:6149379977">614-937-9977</a>
+	 					<a href="tel:6149379977">614 937 9977</a>
 	 					<a href="mailto:louis&#46;nathan&#64;gmail.com">louis.nathan@gmail.com</a>
  					</div>
  				</div>
@@ -169,17 +176,17 @@
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2012-2013</span>
+		 					<span class="resume-dates">2012 &ndash; Present</span>
 				 			<h4>Made Movement</h4>
 				 			<h5>Creative Technologist, Technical&nbsp;Lead</h5>
 				 			<ul>
-				 				<li>Helped launch <a href="//mademovement.com">Made Movement</a>, a marketing agency dedicated to supporting a resurgence in American manufacturing. </li>
+				 				<li>Helped launch Made Movement, a marketing agency dedicated to supporting a resurgence in American manufacturing. </li>
 				 				<li>Administered the first developer internship program at Made. This included interviewing candidates, determining and managing intern responsibilities, conducting code reviews, and providing weekly status updates.</li>
-				 				<li>Ensured code was organized cleanly, functioned properly, and was written efficiently.</li>
+				 				<li>Ensured team's code was organized cleanly, functioned properly, and was written efficiently.</li>
 				 			</ul>
 	 					</div>
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2009-2011</span>
+		 					<span class="resume-dates">2009 &ndash; 2011</span>
 				 			<h4>M<sub>c</sub>Gladrey & Pullen</h4>
 				 			<h5>Senior IT Consultant</h5>
 				 			<ul>
@@ -188,7 +195,7 @@
 				 			</ul>
 	 					</div>
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2007-2008</span>
+		 					<span class="resume-dates">2007 &ndash; 2008</span>
 				 			<h4>The Agency Group</h4>
 				 			<h5>Intern - Music Booking</h5>
 				 			<ul>
@@ -206,14 +213,14 @@
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
-				 			<span class="resume-dates">2011-2012</span>
+				 			<span class="resume-dates">2011 &ndash; 2012</span>
 				 			<h4>Boulder Digital Works</h4>
 				 			<h5>Graduate, Design and Development</h5>
 				 			<p>Boulder Digital Works is an intensive, project-based design and development program at the University of Colorado. Courses include front- and back-end development, graphic design, user experience design, branding, strategy, and entrepreneurship.</p>
 	 					</div>
 
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2004-2009</span>
+		 					<span class="resume-dates">2004 &ndash; 2009</span>
 				 			<h4>Indiana University, Kelley School of&nbsp;Business</h4>
 				 			<h5>Master of Business Administration</h5>
 				 			<p>3/2 Accounting Program, GPA: 3.5</p>
@@ -232,7 +239,7 @@
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
 				 			<h4>Development</h4>
-				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI</p>
+				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI, Capistrano</p>
 	 					</div>
 	 					<div class="resume-content-item">
 				 			<h4>Design</h4>

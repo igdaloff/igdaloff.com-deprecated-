@@ -4,28 +4,27 @@ RESUME
 .resume{
 	display: none;
 	position: absolute;
-	top: 5em;
-	left: 10%;
 	width: 80%;
 	padding: 2em 2em 1em;
-	margin: 0 auto 2em;
+	top: 3em;
+	left: 10%;
 	text-align: left;
 	background: @white;
+	.clearfix;
 	color: @black;
 	border-radius: 1px;
-	.clearfix;
 	z-index: 10000;
-	.box-shadow(0 0 20px 10px rgba(0,0,0,.3));
 	-webkit-transform: scale(1.4);
 	-moz-transform: scale(1.4);
 	-ms-transform: scale(1.4);
 	-o-transform: scale(1.4);
 	transform: scale(1.4);
-	-webkit-transition: all 0.4s ease-in;
+	-webkit-transition: all 0.5s ease-in;
 	-moz-transition: all 0.4s ease-in;
 	-ms-transition: all 0.4s ease-in;
 	-o-transition: all 0.4s ease-in;
-	transition: all 0.4s ease-in;
+	transition: all 0.5s ease-in;
+	-webkit-backface-visibility: hidden;
 
 	h3{
 		margin-bottom: 0.25em;
@@ -46,6 +45,11 @@ RESUME
 		}
 	}
 
+	a:hover{
+		background: @black;
+		color: @white;
+	}
+
 	ul{
 		margin: 0 0 1em 0.9em;
 		list-style-type: disc;
@@ -56,20 +60,10 @@ RESUME
 		font-size: 0.8em;
 		line-height: 1.25;
 	}
-
-	#close-resume{
-		position: absolute;
-		right: 0.5em;
-		top: 0;
-		text-decoration: none;
-		font-size: 1.4em;
-		font-weight: 100;
-	}
 }
 
 .resume-header{
 	padding-bottom: 1em;
-	text-align: center;
 	.clearfix;
 
 	h2{
@@ -89,11 +83,6 @@ RESUME
 	a{
 		display: block;
 		text-decoration: none;
-		.transition;
-
-		&:hover{
-			color: darken(@grey, 10%);
-		}
 	}
 
 	.pdf-download{
@@ -113,7 +102,61 @@ RESUME
 	-webkit-transform: scale(1);
 }
 
-@media screen and (min-width: 37.5em) { /*600px*/
+.resume-off{
+	left: -150%;
+}
+
+#close-resume{
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	width: 1em;
+	height: 1em;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-weight: 100;
+	cursor: pointer;
+	text-align: center;
+	line-height: 1;
+
+	&:hover{
+		background: @black;
+		color: @white;
+	}
+}
+
+
+@media screen and (min-width: 50em) { /*800px*/
+	body{
+		font-size: 125%;
+	}
+
+	.name-title{
+		float: left;
+	}
+
+	.resume-contact{
+		float: right;
+		text-align: right;
+	}
+
+	.resume-header{
+
+		h2{
+			margin-bottom: 0;
+		}
+
+		h4{
+			margin-bottom: 0;
+		}
+	}
+
+	.resume-dates{
+		display: inline-block;
+		float: right;
+		font-size: 0.7em;
+		color: @grey;
+	}
 }
 
 @media screen and (min-width: 75em) { /*1200px*/
