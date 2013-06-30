@@ -153,10 +153,10 @@ GRID
 body {
   width: 100%;
   *zoom: 1;
-  -webkit-transition: -webkit-transform 0.2s ease-out, all 0.2s ease-out;
-  -moz-transition: -moz-transform 0.2s ease-out, all 0.2s ease-out;
-  -o-transition: -o-transform 0.2s ease-out, all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in, all 0.2s ease-in;
+  -moz-transition: -moz-transform 0.2s ease-in, all 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in, all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 body:before,
 body:after {
@@ -253,14 +253,20 @@ h1 {
 .off-wrap {
   display: inline-block;
   position: relative;
-  -webkit-transition: -webkit-transform 0.2s ease-out, all 0.2s ease-out;
-  -moz-transition: -moz-transform 0.2s ease-out, all 0.2s ease-out;
-  -o-transition: -o-transform 0.2s ease-out, all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  top: 0;
+  left: 0;
+  -webkit-transition: -webkit-transform 0.2s ease-in, all 0.2s ease-in;
+  -moz-transition: -moz-transform 0.2s ease-in, all 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in, all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 .off-tilt {
   position: relative;
   -webkit-transform: rotate(16deg);
+  -ms-transform: -ms-rotate(16deg);
+  -o-transform: -o-rotate(16deg);
+  -moz-transform: -moz-rotate(16deg);
+  transform: rotate(16deg);
   top: .25em;
   left: -3px;
 }
@@ -270,12 +276,14 @@ INTRO PARAGRAPH & LINKS
 .about {
   margin: 0 5%;
 }
-.about .about-copy {
+.about-copy {
+  width: auto;
+  margin: 0 auto;
   font-size: 1.3em;
   line-height: 1.25;
 }
 .header-links {
-  margin: 1em auto 0;
+  margin: 1.25em auto 0;
   white-space: nowrap;
 }
 .header-links li {
@@ -340,6 +348,9 @@ MEDIA QUERIES
   }
   header {
     margin: 8em 0;
+  }
+  .about-copy {
+    width: 80%;
   }
   .header-links li {
     margin: 0 0.5em;
@@ -510,9 +521,9 @@ RESUME
   -o-transform: scale(1.4);
   transform: scale(1.4);
   -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.4s ease-in;
-  -ms-transition: all 0.4s ease-in;
-  -o-transition: all 0.4s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
   -webkit-backface-visibility: hidden;
 }
@@ -591,6 +602,10 @@ RESUME
 }
 .resume-drop {
   -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .resume-off {
   left: -150%;

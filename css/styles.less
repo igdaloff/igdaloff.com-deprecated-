@@ -164,7 +164,7 @@ BOX-SHADOW
 /*-------------------------------------------------------------------------
 TRANSITIONS
 -------------------------------------------------------------------------*/
-.transition(@duration: .2s, @ease: ease-out) {
+.transition(@duration: .2s, @ease: ease-in) {
   -webkit-transition: -webkit-transform @duration @ease, all @duration @ease;
   -moz-transition: -moz-transform @duration @ease, all @duration @ease;
   -o-transition: -o-transform @duration @ease, all @duration @ease;
@@ -250,12 +250,18 @@ h1{
 .off-wrap{
 	display: inline-block;
 	position: relative;
+	top: 0;
+	left: 0;
 	.transition;
 }
 
 .off-tilt{
 	position: relative;
 	-webkit-transform: rotate(16deg);
+	-ms-transform: -ms-rotate(16deg);
+	-o-transform: -o-rotate(16deg);
+	-moz-transform: -moz-rotate(16deg);
+	transform: rotate(16deg);
 	top: .25em;
 	left: -3px;
 }
@@ -265,15 +271,18 @@ INTRO PARAGRAPH & LINKS
 ------------------------------*/
 .about{
 	margin: 0 5%;
-
-	.about-copy{
-		font-size: 1.3em;
-		line-height: 1.25;
-	}
 }
 
+.about-copy{
+	width: auto;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 1.25;
+}
+
+
 .header-links{
-	margin: 1em auto 0;
+	margin: 1.25em auto 0;
 	white-space: nowrap;
 
 	li{
@@ -323,11 +332,11 @@ BACK TO TOP
 		color: @black;
 	}
 }
+
 /*------------------------------
 MEDIA QUERIES
 ------------------------------*/
 @media screen and (min-width: 20.5em) { /*328px*/
-
 	a{
 
 		&:hover{
@@ -349,6 +358,10 @@ MEDIA QUERIES
 
 	header{
 		margin: 8em 0;
+	}
+
+	.about-copy{
+		width: 80%;
 	}
 
 	.header-links li{

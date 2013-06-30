@@ -3,7 +3,7 @@
 	$('.wrapper').fadeIn(800);
 
 	// RESPONSIVE HEADER
-	$('h1').fitText(1.05);
+	$('h1').fitText(1.15);
 
 	//'OFF' TILT ON HOVER
 	$('h1').lettering();
@@ -15,6 +15,7 @@
 	});
 
 	//SHOW TOP ARROW
+/*
 	$(window).scroll( function() {
 
 		var $headerHeight =  $('header').height();
@@ -27,6 +28,7 @@
 		}
 
 	});
+*/
 
 	//RESUME DROP-IN
 	var $resume = $('.resume');
@@ -35,7 +37,7 @@
 	//Drop in resume
 	$('#resume-link').on('click', function(e){
 		e.stopPropagation();
-		$resume.fadeIn(300).addClass('resume-drop');
+		$resume.fadeIn(100).addClass('resume-drop');
 		$nonResumeContent.hide();
 		$('body').css('min-height','65em');
 	});
@@ -53,7 +55,7 @@
 
 		setTimeout( function(){
 			$resume.removeClass('resume-drop').hide().removeClass('resume-off');
-		}, 800);
+		}, 1000);
 	});
 
 	//Don't remove resume if clicked

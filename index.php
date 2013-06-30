@@ -152,7 +152,6 @@
 	 					</div>
 		 			</div>
 		 		</div>
-		 		<a href="#" id="top">&uarr;</a>
  			</section>
  			<!-- End Work -->
 
@@ -257,7 +256,7 @@
 		<script src="/js/jquery.fittext.js"></script>
 		<script src="/js/jquery.lettering.js"></script>
 		<script src="/js/responsiveslides.js"></script>
-		<script src="/js/script.js"></script>
+		<script src="/js/script-ck.js"></script>
 
  	</body>
 </html>
