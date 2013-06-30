@@ -265,15 +265,18 @@ INTRO PARAGRAPH & LINKS
 ------------------------------*/
 .about{
 	margin: 0 5%;
-
-	.about-copy{
-		font-size: 1.3em;
-		line-height: 1.25;
-	}
 }
 
+.about-copy{
+	width: auto;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 1.25;
+}
+
+
 .header-links{
-	margin: 1em auto 0;
+	margin: 1.25em auto 0;
 	white-space: nowrap;
 
 	li{
@@ -327,7 +330,6 @@ BACK TO TOP
 MEDIA QUERIES
 ------------------------------*/
 @media screen and (min-width: 20.5em) { /*328px*/
-
 	a{
 
 		&:hover{
@@ -349,6 +351,10 @@ MEDIA QUERIES
 
 	header{
 		margin: 8em 0;
+	}
+
+	.about-copy{
+		width: 80%;
 	}
 
 	.header-links li{
