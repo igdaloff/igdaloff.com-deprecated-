@@ -1,43 +1,42 @@
 /*------------------------------
 WORK
 ------------------------------*/
-.work{
-
-	h2{
-		float: left;
-	}
-}
-
 .work-item{
 	margin-bottom: 2em;
 }
 
 .work-header{
-	display: inline-block;
-	width: 100%;
-	height: 1em;
-	line-height: 1em;
+	margin-bottom: 1em;
+
+	h2{
+		float: left;
+		font-size: 1.1em;
+	}
 }
 
-.work-nav{
+.desktop-carousel-nav{
 	display: none;
-	float: right;
-	font-size: 0.9em;
+}
 
-	a{
+.mobile-carousel-nav{
+	text-align: right;
+	margin-right: -0.25em;
+
+	.next-mobile, .prev-mobile{
+		display: inline-block;
+		padding: 0 0.5em;
 		margin: 0 0.25em;
-		.transition;
-
-		&:hover{
-			color: @light-grey;
-		}
+		border: 1px solid @light-grey;
+		border-radius: 1px;
+		height: 1.5em;
+		line-height: 1.4;
+		text-decoration: none;
+		color: @light-grey;
 	}
 }
 
 .work-item-count{
-	margin-left: 0.5em;
-	opacity: 0.5;
-	float: right;
+	display: none;
 }
 
 .work-carousel{
@@ -79,24 +78,74 @@ WORK
 }
 
 .work-copy{
-	padding: 1em 0 1.25em;
-	border-bottom: 1px solid @grey;
+	padding: 1em 0 1.5em;
+	border-bottom: 1px solid @light-grey;
+	text-align: center;
 
-	a{
-		.transition;
-
-		&:hover{
-			color: @light-grey;
-		}
+	p{
+		color: @light-grey;
 	}
 }
 
 .work-copy-desc{
-	margin-bottom: 0.65em;
+	margin-bottom: 0.75em;
 }
 
 .work-copy-roles{
+
 	p{
 		margin-bottom: 1em;
+	}
+
+	a{
+		margin-left: -5px;
+		padding: 1px 5px 0;
+	}
+}
+
+@media screen and (min-width: 28.75em) { /*460px*/
+	.work-item{
+		margin-bottom: 4em;
+	}
+
+	.work-header{
+		height: 1em;
+		line-height: 1em;
+	}
+
+	.mobile-carousel-nav{
+		display: none;
+	}
+
+	.desktop-carousel-nav{
+		display: inline-block;
+		float: right;
+
+		a{
+			padding: 1px 5px 0;
+			font-style: italic;
+		}
+	}
+
+	.work-item-count{
+		display: inline-block;
+		margin-left: 0.5em;
+		opacity: 0.5;
+		float: right;
+	}
+
+	.work-copy{
+		display: inline-block;
+		padding: 1.6em 0 1.25em;
+		text-align: left;
+	}
+
+	.work-copy-desc, .work-copy-roles{
+		float: left;
+		width: 45%;
+	}
+
+	.work-copy-desc{
+		margin: 0 10% 0 0;
 	}
 }
