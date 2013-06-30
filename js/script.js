@@ -1,91 +1,105 @@
-//FADE IN EVERYTHING
-$('.wrapper').fadeIn(800);
+(function() {
+	//FADE IN EVERYTHING
+	$('.wrapper').fadeIn(800);
 
-// RESPONSIVE HEADER
-$('h1').fitText(1.25);
+	// RESPONSIVE HEADER
+	$('h1').fitText(1.05);
 
-//'OFF' TILT ON HOVER
-$('h1').lettering();
+	//'OFF' TILT ON HOVER
+	$('h1').lettering();
 
-$('.char14, .char15').wrapAll('<div class="off-wrap">');
+	$('.char14, .char15').wrapAll('<div class="off-wrap">');
 
-$('h1').hover( function(){
-	$('.off-wrap').toggleClass('off-tilt');
+	$('h1').on('mouseenter mouseleave', function(){
+		$('.off-wrap').toggleClass('off-tilt');
+	});
 
-});
+	//SHOW TOP ARROW
+	$(window).scroll( function() {
 
-//RESUME DROP-IN
-$('body').on('click', function(){
-	$('.resume').css('left','-100%');
-	$('.work, header').css('opacity', '1');
-	$('.about').show();
+		var $headerHeight =  $('header').height();
+		var $topArrow	= $('#top');
 
-	setTimeout( function(){
-		$('.resume').css('left','10%').hide().removeClass('resume-drop');
-	}, 400);
-});
+		if ( $(window).scrollTop() > $headerHeight ) {
+			$topArrow.css('bottom','0');
+		} else {
+			$topArrow.css('bottom','-2em');
+		}
 
-$('#resume-link, .resume').click( function(e){
-	$('.resume').fadeIn(300).addClass('resume-drop');
-	$('.about').fadeOut(100);
-	e.stopPropagation();
+	});
 
-	$('.work, header').css('opacity', '0');
-});
+	//RESUME DROP-IN
+	var $resume = $('.resume');
+	var $nonResumeContent = $('.work');
 
-//SOCIAL DROPDOWN
-var $social = $('.social');
+	//Drop in resume
+	$('#resume-link').on('click', function(e){
+		e.stopPropagation();
+		$resume.fadeIn(300).addClass('resume-drop');
+		$nonResumeContent.hide();
+		$('body').css('min-height','65em');
+	});
 
-$social.click( function(){
-	$('.social-links').slideToggle();
-	$(this).toggleClass('social-link-active');
-	event.preventDefault();
-});
+	//Slide off resume
+	$('body, #close-resume').on('click', function(){
 
-//WORK CAROUSEL
-$(window).load( function(){
-  $(".work-carousel").responsiveSlides({
-    auto 				 : false,
-    pager 			 : false,
-    nav 				 : true,
-    navContainer : ".work-nav",
-    speed				 : 800,
-    namespace		 : "work-carousel"
-  });
-});
+		if($('.resume-drop').length <=0) {
+			return;
+		}
 
-//WORK CAROUSEL COUNTER
-$(window).load( function(){
+		$resume.addClass('resume-off');
+		$nonResumeContent.show();
+		$('body').css('height','auto');
 
-	$('.work-nav .next').on('click', function(){
+		setTimeout( function(){
+			$resume.removeClass('resume-drop').hide().removeClass('resume-off');
+		}, 800);
+	});
 
-		var $itemNumberContainer = $(this).siblings('.work-item-count').find('.work-item-number');
-		var $itemNumber = $itemNumberContainer.html();
-		var $itemNumberTotal = $(this).siblings('.work-item-count').find('.work-item-total').html();
+	//Don't remove resume if clicked
+	$resume.on('click', function(e){
+		e.stopPropagation();
+	});
 
-		$itemNumber++;
+	//WORK CAROUSEL
+	$(window).load( function(){
 
-		$itemNumberContainer.html($itemNumber);
+		$(".work-carousel").responsiveSlides({
+			auto					: false,
+			pager					: false,
+			nav						: true,
+			navContainer	: ".work-nav",
+			speed					: 800,
+			namespace			: "work-carousel"
+		});
+	});
 
-		if ($itemNumber > $itemNumberTotal) {
-			$itemNumber = 1;
+	//WORK CAROUSEL COUNTER
+	$(window).load( function(){
+
+		$('.work-nav a').on('click', function(){
+
+			var $itemNumberContainer = $(this).parents('.desktop-carousel-nav').siblings('.work-item-count').find('.work-item-number');
+			var $itemNumber = $itemNumberContainer.html();
+			var $itemNumberTotal = $(this).parents('.desktop-carousel-nav').siblings('.work-item-count').find('.work-item-total').html();
+
+			//Count up or down 1, depending on which nav is clicked
+			if ( $(this).hasClass('next') ) {
+				$itemNumber++;
+			} else {
+				$itemNumber--;
+			}
+
+			//Replace content with new incremented number
 			$itemNumberContainer.html($itemNumber);
-		}
+
+			if ($itemNumber > $itemNumberTotal) {
+				$itemNumber = 1;
+				$itemNumberContainer.html($itemNumber);
+			} else if ($itemNumber < 1) {
+				$itemNumber = $itemNumberTotal;
+				$itemNumberContainer.html($itemNumberTotal);
+			}
+		});
 	});
-
-	$('.work-nav .prev').on('click', function(){
-
-		var $itemNumberContainer = $(this).siblings('.work-item-count').find('.work-item-number');
-		var $itemNumber = $itemNumberContainer.html();
-		var $itemNumberTotal = $(this).siblings('.work-item-count').find('.work-item-total').html();
-
-		$itemNumber--;
-
-		$itemNumberContainer.html($itemNumber);
-
-		if ($itemNumber < 1) {
-			$itemNumber = $itemNumberTotal;
-			$itemNumberContainer.html($itemNumberTotal);
-		}
-	});
-})
+})();

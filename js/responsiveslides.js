@@ -309,8 +309,11 @@
         // Navigation
         if (settings.nav) {
           var navMarkup =
-            "<a href='#' class='" + navClass + " prev'>" + settings.prevText + "</a>" + "&nbsp; / &nbsp;" +
-            "<a href='#' class='" + navClass + " next'>" + settings.nextText + "</a>";
+            "<div class='desktop-carousel-nav'><a href='#' class='" + navClass + " prev'>" + settings.prevText + "</a>" + " / " +
+            "<a href='#' class='" + navClass + " next'>" + settings.nextText + "</a></div>" +
+            "<div class='mobile-carousel-nav'><a href='#' class='" + navClass + " prev-mobile'>&larr;</a>" +
+            "<a href='#' class='" + navClass + " next-mobile'>&rarr;</a>";
+            ;
 
           // Inject navigation
           if (options.navContainer) {
