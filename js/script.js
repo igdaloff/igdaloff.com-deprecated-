@@ -3,7 +3,7 @@
 	$('.wrapper').fadeIn(800);
 
 	// RESPONSIVE HEADER
-	$('h1').fitText(1.05);
+	$('h1').fitText(1.15);
 
 	//'OFF' TILT ON HOVER
 	$('h1').lettering();
@@ -15,6 +15,7 @@
 	});
 
 	//SHOW TOP ARROW
+/*
 	$(window).scroll( function() {
 
 		var $headerHeight =  $('header').height();
@@ -27,6 +28,7 @@
 		}
 
 	});
+*/
 
 	//RESUME DROP-IN
 	var $resume = $('.resume');
