@@ -246,7 +246,7 @@
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
 				 			<h4>Development</h4>
-				 			<p>HTML5, CSS3, Javascript/jQuery, PHP, Sass/Less, Git, SVN, Backbone.js, Rails, CLI, PHP, Wordpress,&nbsp;Capistrano</p>
+				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI, PHP, Wordpress,&nbsp;Capistrano</p>
 	 					</div>
 	 					<div class="resume-content-item">
 				 			<h4>Design</h4>
