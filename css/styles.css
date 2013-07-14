@@ -541,10 +541,10 @@ RESUME
   border-bottom: 1px solid #999999;
 }
 .resume h4 {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .resume h5 {
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #999999;
 }
 .resume h5 span {
@@ -591,7 +591,11 @@ RESUME
   display: block;
   text-decoration: none;
 }
-.resume-contact .pdf-download {
+.resume-contact a:hover {
+  background: none;
+  color: #808080;
+}
+.resume-contact .resume-pdf-link {
   text-decoration: underline;
 }
 .resume-dates {
@@ -658,9 +662,6 @@ RESUME
     border: none;
     margin: 0;
   }
-  .resume-header h2 {
-    margin-bottom: 0.5em;
-  }
   .resume-section {
     float: left;
     width: 100%;
@@ -673,7 +674,7 @@ RESUME
     width: 20%;
   }
   .resume-content {
-    float: left;
+    float: right;
     width: 77.5%;
     padding-left: 2.5%;
     margin-left: 1.25%;

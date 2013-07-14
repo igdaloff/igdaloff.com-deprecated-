@@ -39,7 +39,7 @@
 		e.stopPropagation();
 		$resume.fadeIn(100).addClass('resume-drop');
 		$nonResumeContent.hide();
-		$('body').css('min-height','65em');
+		$('body').css('min-height','80em');
 	});
 
 	//Slide off resume

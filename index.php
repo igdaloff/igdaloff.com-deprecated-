@@ -161,46 +161,54 @@
  				<div class="resume-header">
  					<div class="name-title">
 	 					<h2>Nathan Igdaloff</h2>
-	 					<h4>Web Developer, UX Designer</h4>
+	 					<h4>Developer, Experience Designer</h4>
  					</div>
  					<div class="resume-contact">
-	 					<a href="tel:6149379977">614 937 9977</a>
 	 					<a href="mailto:louis&#46;nathan&#64;gmail.com">louis.nathan@gmail.com</a>
+	 					<a href="tel:6149379977">614 937 9977</a>
+	 					<a class="resume-pdf-link" href="/igdaloff-resume.pdf">Download PDF</a>
  					</div>
  				</div>
 
  				<div class="resume-section">
 	 				<div class="resume-section-header">
-			 			<h3>Experience</h3>
+			 			<h3>Experiences</h3>
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2012 &ndash; Present</span>
 				 			<h4>Made Movement</h4>
 				 			<h5>Creative Technologist, Technical&nbsp;Lead</h5>
 				 			<ul>
-				 				<li>Helped launch Made Movement, a marketing agency dedicated to supporting a resurgence in American manufacturing. </li>
-				 				<li>Administered the first developer internship program at Made. This included interviewing candidates, determining and managing intern responsibilities, conducting code reviews, and providing weekly status updates.</li>
+				 				<li>Helped launch Made Movement, a marketing agency dedicated to supporting a resurgence in American&nbsp;manufacturing.</li>
+				 				<li>Research, develop and design interactive products for over 15 clients, including New Belgium Brewing, Copper Mountain, Seventh Generation, Stonyfield Yogurt and Fred Water.</li>
+				 				<li>Created Made's first developer internship program by interviewing candidates, determining and managing intern responsibilities, conducting code reviews and providing weekly status updates.</li>
 				 				<li>Ensured team's code was organized cleanly, functioned properly, and was written efficiently.</li>
 				 			</ul>
 	 					</div>
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2009 &ndash; 2011</span>
+	 						<h4>Rocky Mountain PBS - Boulder Box Set</h4>
+	 						<h5>Creative Director</h5>
+	 						<ul>
+	 							<li>In collaboration with the University of Colorado, created the Boulder Box Set, an Emmy-award winning music series that features performances captured live at the CU's Black Box theater.</li>
+	 							<li>Led the conceptual, design and technical efforts to bring the Boulder Box Set identity to life.</li>
+	 							<li>Presented concepts and designs to the PBS and Boulder Box Set teams to communicate our methodology, strategy and&nbsp;goals.</li>
+	 						</ul>
+	 					</div>
+	 					<div class="resume-content-item">
 				 			<h4>M<sub>c</sub>Gladrey & Pullen</h4>
-				 			<h5>Senior IT Consultant</h5>
+				 			<h5>Senior IT Consultant, CPA</h5>
 				 			<ul>
-					 			<li>Conducted client information technology reviews in support of financial audit engagements as both a solo consultant as well as a team leader.</li>
+					 			<li>Conducted client information technology reviews in support of financial audit engagements as both a solo consultant and a team leader.</li>
 					 			<li>Audited Fortune 500 organizations to verify compliance with the information technology portions of the Sarbanes-Oxley Act.</li>
 				 			</ul>
 	 					</div>
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2007 &ndash; 2008</span>
 				 			<h4>The Agency Group</h4>
-				 			<h5>Intern - Music Booking</h5>
+				 			<h5>Music Booking Intern</h5>
 				 			<ul>
 					 			<li>Collaborated with international team members to compose and analyze contracts for promoters and Billboard Top-100 artists.</li>
-					 			<li>Contacted promoters throughout Europe and the US to gather event data and distributed it to senior agents.</li>
-					 			<li>Researched, organized, and distributed worldwide event information about clients and competitors.</li>
+					 			<li>Contacted promoters throughout Europe and the US to gather event data and distribute it to senior&nbsp;agents.</li>
+					 			<li>Researched, organized and distributed worldwide event information about clients and competitors.</li>
 				 			</ul>
 	 					</div>
 	 				</div>
@@ -212,14 +220,14 @@
 	 				</div>
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
-				 			<span class="resume-dates">2011 &ndash; 2012</span>
+ 				 			<span class="resume-dates">2011 &ndash; 2012</span>
 				 			<h4>Boulder Digital Works</h4>
 				 			<h5>Graduate, Design and Development</h5>
-				 			<p>Boulder Digital Works is an intensive, project-based design and development program at the University of Colorado. Courses include front- and back-end development, graphic design, user experience design, branding, strategy, and entrepreneurship.</p>
+				 			<p>Boulder Digital Works is an intensive, project-based design and development program at the University of Colorado. Courses include front- and back-end development, graphic design, user experience design, branding, strategy, and&nbsp;entrepreneurship.</p>
 	 					</div>
 
 	 					<div class="resume-content-item">
-		 					<span class="resume-dates">2004 &ndash; 2009</span>
+ 		 					<span class="resume-dates">2004 &ndash; 2009</span>
 				 			<h4>Indiana University, Kelley School of&nbsp;Business</h4>
 				 			<h5>Master of Business Administration</h5>
 				 			<p>3/2 Accounting Program, GPA: 3.5</p>
@@ -238,11 +246,15 @@
 	 				<div class="resume-content">
 	 					<div class="resume-content-item">
 				 			<h4>Development</h4>
-				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI, Capistrano</p>
+				 			<p>HTML5, CSS3, Javascript/jQuery, PHP, Sass/Less, Git, SVN, Backbone.js, Rails, CLI, PHP, Wordpress,&nbsp;Capistrano</p>
 	 					</div>
 	 					<div class="resume-content-item">
 				 			<h4>Design</h4>
-				 			<p>User Experience, User Interface, Art Direction</p>
+				 			<p>User Experience, User Interface, Art Direction, Adobe Creative&nbsp;Suite</p>
+	 					</div>
+	 					<div class="resume-content-item">
+	 						<h4>Entrepreneurship</h4>
+	 						<p>Having been part of three startups, I've learned the following: how to work in an unstructured environment, how to manage risk, how to manage a team, how to make it work and how to know when it&nbsp;won't.</p>
 	 					</div>
 	 				</div>
  				</div>
