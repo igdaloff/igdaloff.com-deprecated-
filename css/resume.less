@@ -33,11 +33,11 @@ RESUME
 	}
 
 	h4{
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 
 	h5{
-		font-size: 0.7em;
+		font-size: 0.8em;
 		color: @grey;
 
 		span{
@@ -83,12 +83,18 @@ RESUME
 	a{
 		display: block;
 		text-decoration: none;
+
+		&:hover{
+			background: none;
+			color: darken(@grey, 10%);
+		}
 	}
 
-	.pdf-download{
+	.resume-pdf-link{
 		text-decoration: underline;
 	}
 }
+
 
 .resume-dates{
 	display: none;
@@ -173,13 +179,6 @@ RESUME
 		}
 	}
 
-	.resume-header{
-
-		h2{
-			margin-bottom: 0.5em;
-		}
-	}
-
 	.resume-section{
 		float: left;
 		width: 100%;
@@ -194,7 +193,7 @@ RESUME
 	}
 
 	.resume-content{
-		float: left;
+		float: right;
 		width: 77.5%;
 		padding-left: 2.5%;
 		margin-left: 1.25%;
