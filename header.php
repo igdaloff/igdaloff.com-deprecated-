@@ -1,7 +1,7 @@
 <header>
 	<a class="logo" href="/"><h1>Nathan Igdaloff</h1></a>
 	<div class="about">
-		<p class="about-copy">I'm a developer and experience designer at Made Movement in Boulder, CO. I'm passionate about music, responsive design, and the future of the web. Glad you made it&nbsp;here.</p>
+		<p class="about-copy">I'm a developer and experience designer at Made Movement in Boulder, CO. I'm passionate about music, responsive design, and the future of the web. Glad you could make&nbsp;it.</p>
 		<ul class="header-links">
 			<li><a id="resume-link" href="#" onClick="_gaq.push(['_trackEvent', 'Header Links', 'Click Link', 'Résumé']);">Résumé</a></li>
 			<li><a href="mailto:louis&#46;nathan&#64;gmail.com" onClick="_gaq.push(['_trackEvent', 'Header Links', 'Click Link', 'Email']);">Email</a></li>
