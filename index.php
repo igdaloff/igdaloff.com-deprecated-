@@ -65,6 +65,34 @@
 		 			</div>
  				</div>
 
+ 				<!-- TRACK WITH ME -->
+ 				<div class="work-item">
+	 				<div class="work-header">
+		 				<h2>Track With Me</h2>
+		 				<div class="work-nav">
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">3</span></span>
+		 				</div>
+	 				</div>
+
+	 				<ul class="work-carousel" id="work-carousel5">
+	 					<li><img class="desktop" src="images/twm/twm-comp1.jpg" alt="Track With Me Comp 1"></li>
+	 					<li><img src="images/twm/twm-ux.png" alt="Track With Me UX"></li>
+	 					<li><img class="desktop" src="images/twm/twm-comp2.png" alt="Track With Me Comp 2"></li>
+	 				</ul>
+
+	 				<div class="work-copy">
+	 					<div class="work-copy-desc">
+		 					<p>Track With Me is a self-started project that lets users create limited-time playlists to enjoy with a friend. It's like Snapchat for music. Users listen to the playlist together in real time and once the playlist ends it's gone forever. We're currently utilizing the Spotify API to serve as the song library and&nbsp;player.</p>
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>Responsible For</h3>
+			 				<p>Concept and Strategy, UX and Interface Design, Front-End Development, Responsive&nbsp;Design</p>
+			 				<h3>View Project</h3>
+			 				<p>Track With Me is currently in beta and not available to the&nbsp;public.</p>
+	 					</div>
+		 			</div>
+ 				</div>
+
  				<!-- FRED WATER -->
  				<div class="work-item">
 	 				<div class="work-header">
