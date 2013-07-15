@@ -54,7 +54,7 @@
 
 	 				<div class="work-copy">
 	 					<div class="work-copy-desc">
-			 				<p>New Belgium Brewery didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. I developed Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
+			 				<p>New Belgium Brewing didn't want to just create an app that showcases all the great beers they make. They wanted to give people the opportunity to actually enjoy those beers, too. I developed Beer Mode, an app that lets you go offline, without anyone realizing you're gone.</p>
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>Responsible For</h3>
