@@ -43,13 +43,14 @@
 	 				<div class="work-header">
 		 				<h2>New Belgium</h2>
 		 				<div class="work-nav">
-		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">2</span></span>
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">3</span></span>
 		 				</div>
 	 				</div>
 
 	 				<ul class="work-carousel" id="work-carousel1">
 	 					<li><img src="images/new-belgium/nb-1.png" alt="New Belgium Beer Mode Comp 1"></li>
 	 					<li><img src="images/new-belgium/nb-2.png" alt="New Belgium Beer Mode Comp 2"></li>
+	 					<li><img src="images/new-belgium/nb-ux-1.png" alt="New Belgium Beer Mode UX 1"></li>
 	 				</ul>
 
 	 				<div class="work-copy">
@@ -58,7 +59,7 @@
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>Responsible For</h3>
-			 				<p>Front-End Mobile Development</p>
+			 				<p>UX Design, Front-End Mobile Development</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="https://itunes.apple.com/us/app/newbelgium/id510434598?mt=8">iPhone</a>&nbsp; / &nbsp;<a href="https://play.google.com/store/apps/details?id=com.NewBelgium.NBB&hl=en">Android</a></p>
 	 					</div>
@@ -146,7 +147,7 @@
 	 					</div>
 	 					<div class="work-copy-roles">
 	 						<h3>Responsible For</h3>
-			 				<p>Front-End Development, User Experience Design, Responsive Design, Wordpress Integration</p>
+			 				<p>Front-End Development, UX Design, Responsive Design, Wordpress Integration</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
 	 					</div>
