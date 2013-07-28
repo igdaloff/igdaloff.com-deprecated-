@@ -190,7 +190,7 @@
  				<div class="resume-header">
  					<div class="name-title">
 	 					<h2>Nathan Igdaloff</h2>
-	 					<h4>Developer, Experience Designer</h4>
+	 					<h4>Experience Designer, Developer</h4>
  					</div>
  					<div class="resume-contact">
 	 					<a href="mailto:louis&#46;nathan&#64;gmail.com">louis.nathan@gmail.com</a>
@@ -209,7 +209,7 @@
 				 			<h5>Creative Technologist, Technical&nbsp;Lead</h5>
 				 			<ul>
 				 				<li>Helped launch Made Movement, a marketing agency dedicated to supporting a resurgence in American&nbsp;manufacturing.</li>
-				 				<li>Research, develop and design interactive products for over 15 clients, including New Belgium Brewing, Copper Mountain, Seventh Generation, Stonyfield Yogurt and Fred Water.</li>
+				 				<li>Research, develop and design interactive products for over 15 clients, including New Belgium Brewing, Copper Mountain, Seventh Generation, Stonyfield Yogurt and Udi's Food.</li>
 				 				<li>Created Made's first developer internship program by interviewing candidates, determining and managing intern responsibilities, conducting code reviews and providing weekly status updates.</li>
 				 				<li>Ensured team's code was organized cleanly, functioned properly, and was written efficiently.</li>
 				 			</ul>
