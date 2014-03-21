@@ -38,6 +38,33 @@
 
  			<section class="work">
 
+ 				<!-- TIME -->
+ 				<div class="work-item">
+	 				<div class="work-header">
+		 				<h2>Time</h2>
+		 				<div class="work-nav">
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">3</span></span>
+		 				</div>
+	 				</div>
+
+	 				<ul class="work-carousel" id="work-carousel1">
+	 					<li><img src="images/time/time-1.jpg" alt="Time.com homepage"></li>
+	 					<li><img src="images/time/time-2.jpg" alt="Time.com special story page"></li>
+	 					<li><img src="images/time/time-3.png" alt="Time.com mobile layouts"></li>
+	 				</ul>
+
+	 				<div class="work-copy">
+	 					<div class="work-copy-desc">
+			 				<p>Traditional media has struggled to redefine itself as the blog format has taken off. So, to redesign Time.com, the team at <a href="http://bighuman.com">Big Human</a> took a page from the blog playbook and built a responsive site with articles that flow one after the other in an infinite scroll. The layout for each of the vast number of content types adapt seamlessly to all devices.</p>
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>Responsible For</h3>
+			 				<p>Front-End Responsive Development and Design</p>
+			 				<h3>View Project</h3>
+			 				<p><a href="http://time.com">Time.com</a></p>
+	 					</div>
+		 			</div>
+ 				</div>
  				<!-- NEW BELGIUM -->
  				<div class="work-item">
 	 				<div class="work-header">
