@@ -47,9 +47,9 @@
 	 				</div>
 
 	 				<ul class="work-carousel" id="work-carousel1">
-	 					<li><img src="images/time/time-1.jpg" alt="Time.com homepage"></li>
-	 					<li><img src="images/time/time-2.jpg" alt="Time.com special story page"></li>
-	 					<li><img src="images/time/time-3.png" alt="Time.com mobile layouts"></li>
+	 					<li><a href="http://time.com"><img src="images/time/time-1.jpg" alt="Time.com homepage"></a></li>
+	 					<li><a href="http://time.com"><img src="images/time/time-2.jpg" alt="Time.com special story page"></a></li>
+	 					<li><a href="http://time.com"><img src="images/time/time-3.png" alt="Time.com mobile layouts"></a></li>
 	 				</ul>
 
 	 				<div class="work-copy">
@@ -74,9 +74,9 @@
 	 				</div>
 
 	 				<ul class="work-carousel" id="work-carousel1">
-	 					<li><img src="images/new-belgium/nb-1.png" alt="New Belgium Beer Mode Comp 1"></li>
-	 					<li><img src="images/new-belgium/nb-2.png" alt="New Belgium Beer Mode Comp 2"></li>
-	 					<li><img src="images/new-belgium/nb-ux-1.png" alt="New Belgium Beer Mode UX 1"></li>
+	 					<li><a href="http://www.newbelgium.com/app.aspx"><img src="images/new-belgium/nb-1.png" alt="New Belgium Beer Mode Comp 1"></a></li>
+	 					<li><a href="http://www.newbelgium.com/app.aspx"><img src="images/new-belgium/nb-2.png" alt="New Belgium Beer Mode Comp 2"></a></li>
+	 					<li><a href="http://www.newbelgium.com/app.aspx"><img src="images/new-belgium/nb-ux-1.png" alt="New Belgium Beer Mode UX 1"></a></li>
 	 				</ul>
 
 	 				<div class="work-copy">
@@ -130,12 +130,12 @@
 	 				</div>
 
 	 				<ul class="work-carousel" id="work-carousel2">
-	 					<li><img class="desktop" src="images/fred/fred-1.jpg" alt="Fred Comp 1"></li>
-	 					<li><img class="desktop" src="images/fred/fred-2.jpg" alt="Fred Comp 2"></li>
-	 					<li><img class="desktop" src="images/fred/fred-3.jpg" alt="Fred Comp 3"></li>
-	 					<li><img class="mobile" src="images/fred/fred-4.png" alt="Fred Comp 4"></li>
-	 					<li><img class="mobile" src="images/fred/fred-5.png" alt="Fred Comp 5"></li>
-	 					<li><img class="mobile" src="images/fred/fred-6.png" alt="Fred Comp 6"></li>
+	 					<li><a href="//fredwater.com/"><img class="desktop" src="images/fred/fred-1.jpg" alt="Fred Comp 1"></a></li>
+	 					<li><a href="//fredwater.com/"><img class="desktop" src="images/fred/fred-2.jpg" alt="Fred Comp 2"></a></li>
+	 					<li><a href="//fredwater.com/"><img class="desktop" src="images/fred/fred-3.jpg" alt="Fred Comp 3"></a></li>
+	 					<li><a href="//fredwater.com/"><img class="mobile" src="images/fred/fred-4.png" alt="Fred Comp 4"></a></li>
+	 					<li><a href="//fredwater.com/"><img class="mobile" src="images/fred/fred-5.png" alt="Fred Comp 5"></a></li>
+	 					<li><a href="//fredwater.com/"><img class="mobile" src="images/fred/fred-6.png" alt="Fred Comp 6"></a></li>
 	 				</ul>
 
 	 				<div class="work-copy">
@@ -151,35 +151,6 @@
 		 			</div>
 		 		</div>
 
-		 		<!-- MADE MOVEMENT -->
- 				<div class="work-item">
-	 				<div class="work-header">
-		 				<h2>Made Movement</h2>
-		 				<div class="work-nav">
-		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">4</span></span>
-		 				</div>
-	 				</div>
-
-	 				<ul class="work-carousel" id="work-carousel3">
-	 					<li><img class="desktop" src="images/movement/movement-1.jpg" alt="Movement Comp 1"></li>
-	 					<li><img class="desktop" src="images/movement/movement-2.png" alt="Movement Comp 2"></li>
-	 					<li><img src="images/movement/movement-3.png" alt="Movement Comp 3"></li>
-	 					<li><img src="images/movement/movement-4.png" alt="Movement Comp 4"></li>
-	 				</ul>
-
-	 				<div class="work-copy">
-	 					<div class="work-copy-desc">
-		 					<p>Made Movement is a marketing agency dedicated to supporting a resurgence in American manufacturing. In addition to displaying their work, the agency needed to demonstrate how they live up to their made-in-the-USA&nbsp;mission. I helped bring that mission, and the agency, to life online.</p>
-	 					</div>
-	 					<div class="work-copy-roles">
-	 						<h3>Responsible For</h3>
-			 				<p>Front-End Development, UX Design, Responsive Design, Wordpress Integration</p>
-			 				<h3>View Project</h3>
-			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
-	 					</div>
-		 			</div>
-		 		</div>
-
 		 		<!-- MADE COLLECTION -->
  				<div class="work-item">
 	 				<div class="work-header">
@@ -190,9 +161,9 @@
 	 				</div>
 
 	 				<ul class="work-carousel" id="work-carousel4">
-	 					<li><img class="desktop" src="images/collection/collection-1.png" alt="Collection Comp 1"></li>
-	 					<li><img class="desktop" src="images/collection/collection-2.png" alt="Collection Comp 2"></li>
-	 					<li><img class="desktop" src="images/collection/collection-3.png" alt="Collection Comp 3"></li>
+	 					<li><a href="//madecollection.com"><img class="desktop" src="images/collection/collection-1.png" alt="Collection Comp 1"></a></li>
+	 					<li><a href="//madecollection.com"><img class="desktop" src="images/collection/collection-2.png" alt="Collection Comp 2"></a></li>
+	 					<li><a href="//madecollection.com"><img class="desktop" src="images/collection/collection-3.png" alt="Collection Comp 3"></a></li>
 	 				</ul>
 
 	 				<div class="work-copy">
@@ -204,6 +175,35 @@
 			 				<p>Front-End Development, Ecommerce and Marketing&nbsp;Analytics</p>
 			 				<h3>View Project</h3>
 			 				<p><a href="//madecollection.com">Madecollection.com</a></p>
+	 					</div>
+		 			</div>
+		 		</div>
+
+		 		<!-- MADE MOVEMENT -->
+ 				<div class="work-item">
+	 				<div class="work-header">
+		 				<h2>Made Movement</h2>
+		 				<div class="work-nav">
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">4</span></span>
+		 				</div>
+	 				</div>
+
+	 				<ul class="work-carousel" id="work-carousel3">
+	 					<li><a href="//mademovement.com"><img class="desktop" src="images/movement/movement-1.jpg" alt="Movement Comp 1"></a></li>
+	 					<li><a href="//mademovement.com"><img class="desktop" src="images/movement/movement-2.png" alt="Movement Comp 2"></a></li>
+	 					<li><a href="//mademovement.com"><img src="images/movement/movement-3.png" alt="Movement Comp 3"></a></li>
+	 					<li><a href="//mademovement.com"><img src="images/movement/movement-4.png" alt="Movement Comp 4"></a></li>
+	 				</ul>
+
+	 				<div class="work-copy">
+	 					<div class="work-copy-desc">
+		 					<p>Made Movement is a marketing agency dedicated to supporting a resurgence in American manufacturing. In addition to displaying their work, the agency needed to demonstrate how they live up to their made-in-the-USA&nbsp;mission. I helped bring that mission, and the agency, to life online.</p>
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>Responsible For</h3>
+			 				<p>Front-End Development, UX Design, Responsive Design, Wordpress Integration</p>
+			 				<h3>View Project</h3>
+			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
 	 					</div>
 		 			</div>
 		 		</div>

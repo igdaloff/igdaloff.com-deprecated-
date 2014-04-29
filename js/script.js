@@ -1,6 +1,4 @@
 (function() {
-	//FADE IN EVERYTHING
-	$('.wrapper').fadeIn(800);
 
 	// RESPONSIVE HEADER
 	$('h1').fitText(1.15);
@@ -74,13 +72,9 @@
 			speed					: 800,
 			namespace			: "work-carousel"
 		});
-	});
 
-	//WORK CAROUSEL COUNTER
-	$(window).load( function(){
-
-		$('.work-nav a').on('click', function(){
-
+		//WORK CAROUSEL COUNTER
+		function countCarousel(){
 			var $itemNumberContainer = $(this).parents('.desktop-carousel-nav').siblings('.work-item-count').find('.work-item-number');
 			var $itemNumber = $itemNumberContainer.html();
 			var $itemNumberTotal = $(this).parents('.desktop-carousel-nav').siblings('.work-item-count').find('.work-item-total').html();
@@ -102,6 +96,9 @@
 				$itemNumber = $itemNumberTotal;
 				$itemNumberContainer.html($itemNumberTotal);
 			}
-		});
+		}
+
+		$('.work-nav a').on('click', countCarousel);
 	});
+
 })();
