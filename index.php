@@ -23,6 +23,7 @@
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 			ga('create', 'UA-29359807-1', 'auto');  // Replace with your property ID.
+			ga('require', 'displayfeatures');
 			ga('send', 'pageview');
 		</script>
 
