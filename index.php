@@ -61,10 +61,38 @@
 	 						<h3>Responsible For</h3>
 			 				<p>Front-End Responsive Development and Design</p>
 			 				<h3>View Project</h3>
-			 				<p><a href="http://time.com">Time.com</a></p>
+			 				<p><a href="http://time.com" target="_blank">Time.com</a></p>
 	 					</div>
 		 			</div>
  				</div>
+
+ 				<!-- MILKSHAKE -->
+ 				<div class="work-item">
+	 				<div class="work-header">
+		 				<h2>Milkshake</h2>
+		 				<div class="work-nav">
+		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">2</span></span>
+		 				</div>
+	 				</div>
+
+	 				<ul class="work-carousel" id="work-carousel5">
+	 					<li><img class="desktop" src="images/milkshake/milkshake-1.jpg" alt="Milkshake Comp"></li>
+	 					<li><img class="desktop" src="images/milkshake/milkshake-2.jpg" alt="Milkshake Comp"></li>
+	 				</ul>
+
+	 				<div class="work-copy">
+	 					<div class="work-copy-desc">
+		 					<p>Milkshake is a self-started project that lets users search YouTube and Soundcloud to create playlists to enjoy with a friend in real time.</p>
+	 					</div>
+	 					<div class="work-copy-roles">
+	 						<h3>Responsible For</h3>
+			 				<p>Concept and Strategy, UX and Interface Design, Front-End Development</p>
+			 				<h3>View Project</h3>
+			 				<p><a href="//milkshake.mu" target="_blank">Milkshake.mu</a></p>
+	 					</div>
+		 			</div>
+ 				</div>
+
  				<!-- NEW BELGIUM -->
  				<div class="work-item">
 	 				<div class="work-header">
@@ -88,35 +116,7 @@
 	 						<h3>Responsible For</h3>
 			 				<p>UX Design, Front-End Mobile Development</p>
 			 				<h3>View Project</h3>
-			 				<p><a href="https://itunes.apple.com/us/app/newbelgium/id510434598?mt=8">iPhone</a>&nbsp; / &nbsp;<a href="https://play.google.com/store/apps/details?id=com.NewBelgium.NBB&hl=en">Android</a></p>
-	 					</div>
-		 			</div>
- 				</div>
-
- 				<!-- TRACK WITH ME -->
- 				<div class="work-item">
-	 				<div class="work-header">
-		 				<h2>Track With Me</h2>
-		 				<div class="work-nav">
-		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">3</span></span>
-		 				</div>
-	 				</div>
-
-	 				<ul class="work-carousel" id="work-carousel5">
-	 					<li><img class="desktop" src="images/twm/twm-comp1.jpg" alt="Track With Me Comp 1"></li>
-	 					<li><img src="images/twm/twm-ux.png" alt="Track With Me UX"></li>
-	 					<li><img class="desktop" src="images/twm/twm-comp2.png" alt="Track With Me Comp 2"></li>
-	 				</ul>
-
-	 				<div class="work-copy">
-	 					<div class="work-copy-desc">
-		 					<p>Track With Me is a self-started project that lets users create limited-time playlists to enjoy with a friend. It's like Snapchat for music. Users listen to the playlist together in real time and once the playlist ends it's gone forever. We're currently utilizing the Spotify API to serve as the song library and&nbsp;player.</p>
-	 					</div>
-	 					<div class="work-copy-roles">
-	 						<h3>Responsible For</h3>
-			 				<p>Concept and Strategy, UX and Interface Design, Front-End Development, Responsive&nbsp;Design</p>
-			 				<h3>View Project</h3>
-			 				<p>Track With Me is currently in beta and not available to the&nbsp;public.</p>
+			 				<p><a href="https://itunes.apple.com/us/app/newbelgium/id510434598?mt=8" target="_blank">iPhone</a>&nbsp; / &nbsp;<a href="https://play.google.com/store/apps/details?id=com.NewBelgium.NBB&hl=en">Android</a></p>
 	 					</div>
 		 			</div>
  				</div>
@@ -151,63 +151,6 @@
 	 					</div>
 		 			</div>
 		 		</div>
-
-		 		<!-- MADE COLLECTION -->
- 				<div class="work-item">
-	 				<div class="work-header">
-		 				<h2>Made Collection</h2>
-		 				<div class="work-nav">
-		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">3</span></span>
-		 				</div>
-	 				</div>
-
-	 				<ul class="work-carousel" id="work-carousel4">
-	 					<li><a href="//madecollection.com"><img class="desktop" src="images/collection/collection-1.png" alt="Collection Comp 1"></a></li>
-	 					<li><a href="//madecollection.com"><img class="desktop" src="images/collection/collection-2.png" alt="Collection Comp 2"></a></li>
-	 					<li><a href="//madecollection.com"><img class="desktop" src="images/collection/collection-3.png" alt="Collection Comp 3"></a></li>
-	 				</ul>
-
-	 				<div class="work-copy">
-	 					<div class="work-copy-desc">
-		 					<p>With the rebirth of American manufacturing, all of the sudden there are more and more stylish, sexy, premium products being made here. Made Collection sells those products.
-	 					</div>
-	 					<div class="work-copy-roles">
-	 						<h3>Responsible For</h3>
-			 				<p>Front-End Development, Ecommerce and Marketing&nbsp;Analytics</p>
-			 				<h3>View Project</h3>
-			 				<p><a href="//madecollection.com">Madecollection.com</a></p>
-	 					</div>
-		 			</div>
-		 		</div>
-
-		 		<!-- MADE MOVEMENT -->
- 				<div class="work-item">
-	 				<div class="work-header">
-		 				<h2>Made Movement</h2>
-		 				<div class="work-nav">
-		 					<span class="work-item-count"><span class="work-item-number">1</span> of <span class="work-item-total">4</span></span>
-		 				</div>
-	 				</div>
-
-	 				<ul class="work-carousel" id="work-carousel3">
-	 					<li><a href="//mademovement.com"><img class="desktop" src="images/movement/movement-1.jpg" alt="Movement Comp 1"></a></li>
-	 					<li><a href="//mademovement.com"><img class="desktop" src="images/movement/movement-2.png" alt="Movement Comp 2"></a></li>
-	 					<li><a href="//mademovement.com"><img src="images/movement/movement-3.png" alt="Movement Comp 3"></a></li>
-	 					<li><a href="//mademovement.com"><img src="images/movement/movement-4.png" alt="Movement Comp 4"></a></li>
-	 				</ul>
-
-	 				<div class="work-copy">
-	 					<div class="work-copy-desc">
-		 					<p>Made Movement is a marketing agency dedicated to supporting a resurgence in American manufacturing. In addition to displaying their work, the agency needed to demonstrate how they live up to their made-in-the-USA&nbsp;mission. I helped bring that mission, and the agency, to life online.</p>
-	 					</div>
-	 					<div class="work-copy-roles">
-	 						<h3>Responsible For</h3>
-			 				<p>Front-End Development, UX Design, Responsive Design, Wordpress Integration</p>
-			 				<h3>View Project</h3>
-			 				<p><a href="//mademovement.com">Mademovement.com</a></p>
-	 					</div>
-		 			</div>
-		 		</div>
  			</section>
  			<!-- End Work -->
 
@@ -217,7 +160,7 @@
  				<div class="resume-header">
  					<div class="name-title">
 	 					<h2>Nathan Igdaloff</h2>
-	 					<h4>Experience Designer, Developer</h4>
+	 					<h4>Product Manager, Developer</h4>
  					</div>
  					<div class="resume-contact">
 	 					<a href="mailto:louis&#46;nathan&#64;gmail.com">louis.nathan@gmail.com</a>
@@ -231,6 +174,21 @@
 			 			<h3>Experiences</h3>
 	 				</div>
 	 				<div class="resume-content">
+	 					<div class="resume-content-item">
+				 			<h4>Big Human</h4>
+				 			<h5>Product Manager</h5>
+				 			<ul>
+				 				<li>Lead digital product decisions among teams of designers and developers throughout the product's entire lifecycle.</li>
+				 				<li>Conduct competitive analyses, interview potential users, and become the master of industries to inform clients of the best path to a successful product.</li>
+				 				<li>Manage communications between the client and internal teams to ensure the client’s vision comes to life in the best way possible.</li>
+				 				<li>Analyze product usage trends after launch to determine how to improve usability.</li>
+				 			</ul>
+				 			<h5>Front-End Developer</h5>
+				 			<ul>
+				 				<li>Used modern front-end technologies to build elegant, responsive, large-scale web applications both independently and with small teams.</li>
+				 				<li>Conducted code reviews to ensure team’s code is organized cleanly, functions properly and is written efficiently.</li>
+				 			</ul>
+	 					</div>
 	 					<div class="resume-content-item">
 				 			<h4>Made Movement</h4>
 				 			<h5>Creative Technologist, Technical&nbsp;Lead</h5>
@@ -249,14 +207,6 @@
 	 							<li>Led the conceptual, design and technical efforts to bring the Boulder Box Set identity to life.</li>
 	 							<li>Presented concepts and designs to the PBS and Boulder Box Set teams to communicate our methodology, strategy and&nbsp;goals.</li>
 	 						</ul>
-	 					</div>
-	 					<div class="resume-content-item">
-				 			<h4>M<sub>c</sub>Gladrey & Pullen</h4>
-				 			<h5>Senior IT Consultant, CPA</h5>
-				 			<ul>
-					 			<li>Conducted client information technology reviews in support of financial audit engagements as both a solo consultant and a team leader.</li>
-					 			<li>Audited Fortune 500 organizations to verify compliance with the information technology portions of the Sarbanes-Oxley Act.</li>
-				 			</ul>
 	 					</div>
 	 					<div class="resume-content-item">
 				 			<h4>The Agency Group</h4>
@@ -300,13 +250,13 @@
 			 			<h3>Skills</h3>
 	 				</div>
 	 				<div class="resume-content">
-	 					<div class="resume-content-item">
-				 			<h4>Development</h4>
-				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Git, SVN, Backbone.js, Rails, CLI, PHP, Wordpress,&nbsp;Capistrano</p>
+						<div class="resume-content-item">
+				 			<h4>Design</h4>
+				 			<p>User Experience, User Interface, Information Architecture, Art Direction, Adobe Creative Suite, Omnigraffle, Invision</p>
 	 					</div>
 	 					<div class="resume-content-item">
-				 			<h4>Design</h4>
-				 			<p>User Experience, User Interface, Art Direction, Adobe Creative&nbsp;Suite</p>
+				 			<h4>Development</h4>
+				 			<p>HTML5, CSS3, Javascript/jQuery, Sass/Less, Grunt, Git, SVN, Wordpress, Backbone.js, CLI, Capistrano, Digital Ocean, Amazon AWS, FramerJS</p>
 	 					</div>
 	 					<div class="resume-content-item">
 	 						<h4>Entrepreneurship</h4>
