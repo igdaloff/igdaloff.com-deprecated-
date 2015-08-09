@@ -1,0 +1,89 @@
+// =======================
+// Header Styles
+// =======================
+.intro-header{
+	margin: 3em 0 9em;
+	padding: 0;
+}
+
+.my-name{
+	display: inline-block;
+	width: 100%;
+	margin-left: -5px;
+	font-family: $sans;
+	font-size: 5.6em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.off-wrap{
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: 0;
+	@include transition;
+}
+
+.off-tilt{
+	position: relative;
+	-webkit-transform: rotate(16deg);
+	-ms-transform: -ms-rotate(16deg);
+	-o-transform: -o-rotate(16deg);
+	-moz-transform: -moz-rotate(16deg);
+	transform: rotate(16deg);
+	top: 0.25em;
+	left: -3px;
+}
+
+.about{
+	font-size: 1.2em;
+}
+
+.about-copy{
+	width: auto;
+	line-height: 1.25;
+	font-family: $serif;
+	letter-spacing: 0;
+	font-weight: normal;
+	text-transform: none;
+
+	@include larger-than(small){
+		width: 80%;
+	}
+}
+
+
+.header-links{
+	margin: 1.25em 0 0 -5px;
+	white-space: nowrap;
+
+	li{
+		position: relative;
+		display: inline-block;
+		margin: 0;
+
+		@include larger-than(small){
+			margin-right: 0.5em;
+		}
+
+		&:last-child{
+			display: none;
+
+			@include larger-than(small){
+				display: inline-block;
+			}
+		}
+	}
+
+	a{
+		font-family: $serif;
+		padding: 1px 5px 0;
+	}
+
+	.social-link-active{
+		color: $black;
+		background: $white;
+		text-decoration: none;
+	}
+}

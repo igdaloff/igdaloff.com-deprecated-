@@ -1,0 +1,34 @@
+// =======================
+// Layout
+// =======================
+body{
+	font-family: $serif;
+	color: $white;
+	background: $black;
+	background: url(/assets/images/bg.gif);
+
+	@include larger-than(small){
+		font-size: 112.5%;
+	}
+	@include larger-than(large){
+		font-size: 125%;
+	}
+
+	@include larger-than(extra-large){
+		font-size: 137.5%;
+	}
+}
+
+.wrapper{
+	width:90%;
+	max-width:1200px;
+	margin:0 auto;
+
+	@include larger-than(medium){
+		width: 80%;
+	}
+}
+
+*, *:before, *:after{
+	@include box-sizing;
+}

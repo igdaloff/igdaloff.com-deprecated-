@@ -1,0 +1,682 @@
+/*-------------------------------------------------------------------------
+RESET
+-------------------------------------------------------------------------*/
+/* line 4, ../../assets/scss/base/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 26, ../../assets/scss/base/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../../assets/scss/base/_reset.scss */
+body {
+  line-height: 1;
+  font: normal 100%/1.5 "chaparral-pro", helvetica, serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 39, ../../assets/scss/base/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 42, ../../assets/scss/base/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 47, ../../assets/scss/base/_reset.scss */
+a, a:link, a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* line 52, ../../assets/scss/base/_reset.scss */
+a, img {
+  border: none;
+}
+
+/* line 4, ../../assets/scss/base/_base.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 9, ../../assets/scss/base/_base.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 7, ../../assets/scss/common/_typography.scss */
+h2, h3, h4, h5 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 12, ../../assets/scss/common/_typography.scss */
+h2 {
+  font-family: "brandon-grotesque", helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* line 18, ../../assets/scss/common/_typography.scss */
+h3, h4 {
+  font-family: "brandon-grotesque", helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+/* line 24, ../../assets/scss/common/_typography.scss */
+h5 {
+  font-family: "brandon-grotesque", helvetica, sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+/* line 31, ../../assets/scss/common/_typography.scss */
+p {
+  line-height: 1.3;
+  font-size: 0.9em;
+}
+
+/* line 36, ../../assets/scss/common/_typography.scss */
+sub {
+  text-transform: lowercase;
+}
+
+@media (min-width: 28.75em) {
+  /* line 42, ../../assets/scss/common/_typography.scss */
+  a:hover {
+    background: #fff;
+    color: #2f2f2f;
+    text-decoration: none;
+  }
+}
+
+/* line 4, ../../assets/scss/common/_layout.scss */
+body {
+  font-family: "chaparral-pro", georgia, serif;
+  color: #fff;
+  background: #2f2f2f;
+  background: url(/assets/images/bg.gif);
+}
+@media (min-width: 28.75em) {
+  /* line 4, ../../assets/scss/common/_layout.scss */
+  body {
+    font-size: 112.5%;
+  }
+}
+@media (min-width: 50em) {
+  /* line 4, ../../assets/scss/common/_layout.scss */
+  body {
+    font-size: 125%;
+  }
+}
+@media (min-width: 60em) {
+  /* line 4, ../../assets/scss/common/_layout.scss */
+  body {
+    font-size: 137.5%;
+  }
+}
+
+/* line 22, ../../assets/scss/common/_layout.scss */
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (min-width: 37.5em) {
+  /* line 22, ../../assets/scss/common/_layout.scss */
+  .wrapper {
+    width: 80%;
+  }
+}
+
+/* line 32, ../../assets/scss/common/_layout.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../../assets/scss/modules/_header.scss */
+.intro-header {
+  margin: 3em 0 9em;
+  padding: 0;
+}
+
+/* line 9, ../../assets/scss/modules/_header.scss */
+.my-name {
+  display: inline-block;
+  width: 100%;
+  margin-left: -5px;
+  font-family: "brandon-grotesque", helvetica, sans-serif;
+  font-size: 5.6em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* line 20, ../../assets/scss/modules/_header.scss */
+.off-wrap {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition: -webkit-transform 0.2s ease-in, all 0.2s ease-in;
+  -moz-transition: -moz-transform 0.2s ease-in, all 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in, all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/* line 28, ../../assets/scss/modules/_header.scss */
+.off-tilt {
+  position: relative;
+  -webkit-transform: rotate(16deg);
+  -ms-transform: -ms-rotate(16deg);
+  -o-transform: -o-rotate(16deg);
+  -moz-transform: -moz-rotate(16deg);
+  transform: rotate(16deg);
+  top: 0.25em;
+  left: -3px;
+}
+
+/* line 39, ../../assets/scss/modules/_header.scss */
+.about {
+  font-size: 1.2em;
+}
+
+/* line 43, ../../assets/scss/modules/_header.scss */
+.about-copy {
+  width: auto;
+  line-height: 1.25;
+  font-family: "chaparral-pro", georgia, serif;
+  letter-spacing: 0;
+  font-weight: normal;
+  text-transform: none;
+}
+@media (min-width: 28.75em) {
+  /* line 43, ../../assets/scss/modules/_header.scss */
+  .about-copy {
+    width: 80%;
+  }
+}
+
+/* line 57, ../../assets/scss/modules/_header.scss */
+.header-links {
+  margin: 1.25em 0 0 -5px;
+  white-space: nowrap;
+}
+/* line 61, ../../assets/scss/modules/_header.scss */
+.header-links li {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+@media (min-width: 28.75em) {
+  /* line 61, ../../assets/scss/modules/_header.scss */
+  .header-links li {
+    margin-right: 0.5em;
+  }
+}
+/* line 70, ../../assets/scss/modules/_header.scss */
+.header-links li:last-child {
+  display: none;
+}
+@media (min-width: 28.75em) {
+  /* line 70, ../../assets/scss/modules/_header.scss */
+  .header-links li:last-child {
+    display: inline-block;
+  }
+}
+/* line 79, ../../assets/scss/modules/_header.scss */
+.header-links a {
+  font-family: "chaparral-pro", georgia, serif;
+  padding: 1px 5px 0;
+}
+/* line 84, ../../assets/scss/modules/_header.scss */
+.header-links .social-link-active {
+  color: #2f2f2f;
+  background: #fff;
+  text-decoration: none;
+}
+
+/*------------------------------
+RESUME
+------------------------------*/
+/* line 4, ../../assets/scss/modules/_resume.scss */
+.resume {
+  display: none;
+  position: absolute;
+  width: 80%;
+  padding: 2em 2em 1em;
+  top: 3em;
+  left: 10%;
+  text-align: left;
+  background: #fff;
+  *zoom: 1;
+  color: #2f2f2f;
+  border-radius: 1px;
+  z-index: 10000;
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  -webkit-backface-visibility: hidden;
+}
+/* line 7, ../../assets/scss/common/_mixins.scss */
+.resume:before, .resume:after {
+  content: "";
+  display: table;
+}
+/* line 12, ../../assets/scss/common/_mixins.scss */
+.resume:after {
+  clear: both;
+}
+/* line 29, ../../assets/scss/modules/_resume.scss */
+.resume h3 {
+  margin-bottom: 0.25em;
+  font-size: 1.1em;
+  border-bottom: 1px solid #999;
+}
+/* line 35, ../../assets/scss/modules/_resume.scss */
+.resume h4 {
+  font-size: 0.9em;
+}
+/* line 39, ../../assets/scss/modules/_resume.scss */
+.resume h5 {
+  font-size: 0.8em;
+  color: #999;
+}
+/* line 43, ../../assets/scss/modules/_resume.scss */
+.resume h5 span {
+  float: right;
+}
+/* line 48, ../../assets/scss/modules/_resume.scss */
+.resume a:hover {
+  background: #2f2f2f;
+  color: #fff;
+}
+/* line 53, ../../assets/scss/modules/_resume.scss */
+.resume ul {
+  margin: 0 0 1em 0.9em;
+  list-style-type: disc;
+}
+/* line 58, ../../assets/scss/modules/_resume.scss */
+.resume li, .resume p {
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  line-height: 1.25;
+}
+
+/* line 65, ../../assets/scss/modules/_resume.scss */
+.resume-header {
+  padding-bottom: 1em;
+  *zoom: 1;
+}
+/* line 7, ../../assets/scss/common/_mixins.scss */
+.resume-header:before, .resume-header:after {
+  content: "";
+  display: table;
+}
+/* line 12, ../../assets/scss/common/_mixins.scss */
+.resume-header:after {
+  clear: both;
+}
+/* line 69, ../../assets/scss/modules/_resume.scss */
+.resume-header h2 {
+  font-size: 1.6em;
+  line-height: 1;
+}
+/* line 74, ../../assets/scss/modules/_resume.scss */
+.resume-header h4 {
+  margin-bottom: 0.75em;
+}
+
+/* line 79, ../../assets/scss/modules/_resume.scss */
+.resume-contact {
+  color: #999;
+  font-size: 0.8em;
+}
+/* line 83, ../../assets/scss/modules/_resume.scss */
+.resume-contact a {
+  display: block;
+  text-decoration: none;
+}
+/* line 87, ../../assets/scss/modules/_resume.scss */
+.resume-contact a:hover {
+  background: none;
+  color: gray;
+}
+/* line 93, ../../assets/scss/modules/_resume.scss */
+.resume-contact .resume-pdf-link {
+  text-decoration: underline;
+}
+
+/* line 99, ../../assets/scss/modules/_resume.scss */
+.resume-dates {
+  display: none;
+}
+
+/* line 103, ../../assets/scss/modules/_resume.scss */
+.resume-content-item {
+  margin-bottom: 1em;
+}
+
+/* line 107, ../../assets/scss/modules/_resume.scss */
+.resume-drop {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 115, ../../assets/scss/modules/_resume.scss */
+.resume-off {
+  left: -150%;
+}
+
+/* line 119, ../../assets/scss/modules/_resume.scss */
+#close-resume {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 1em;
+  height: 1em;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 100;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1;
+}
+/* line 132, ../../assets/scss/modules/_resume.scss */
+#close-resume:hover {
+  background: #2f2f2f;
+  color: #fff;
+}
+
+@media (min-width: 50em) {
+  /* line 140, ../../assets/scss/modules/_resume.scss */
+  .name-title {
+    float: left;
+  }
+
+  /* line 144, ../../assets/scss/modules/_resume.scss */
+  .resume-contact {
+    float: right;
+    text-align: right;
+  }
+
+  /* line 150, ../../assets/scss/modules/_resume.scss */
+  .resume-header h2 {
+    margin-bottom: 0;
+  }
+  /* line 154, ../../assets/scss/modules/_resume.scss */
+  .resume-header h4 {
+    margin-bottom: 0;
+  }
+
+  /* line 159, ../../assets/scss/modules/_resume.scss */
+  .resume-dates {
+    display: inline-block;
+    float: right;
+    font-size: 0.7em;
+    color: #999;
+  }
+}
+@media (min-width: 60em) {
+  /* line 169, ../../assets/scss/modules/_resume.scss */
+  .resume h3 {
+    border: none;
+    margin: 0;
+  }
+
+  /* line 175, ../../assets/scss/modules/_resume.scss */
+  .resume-section {
+    float: left;
+    width: 100%;
+    padding-top: 1em;
+    margin-bottom: 1em;
+    border-top: 1px solid #ccc;
+  }
+
+  /* line 183, ../../assets/scss/modules/_resume.scss */
+  .resume-section-header {
+    float: left;
+    width: 20%;
+  }
+
+  /* line 188, ../../assets/scss/modules/_resume.scss */
+  .resume-content {
+    float: right;
+    width: 77.5%;
+    padding-left: 2.5%;
+    margin-left: 1.25%;
+    border-left: 1px solid #ccc;
+  }
+}
+/*------------------------------
+WORK
+------------------------------*/
+/* line 4, ../../assets/scss/modules/_work.scss */
+.work-item {
+  margin-bottom: 2em;
+}
+
+/* line 8, ../../assets/scss/modules/_work.scss */
+.work-header {
+  margin-bottom: 1em;
+}
+/* line 11, ../../assets/scss/modules/_work.scss */
+.work-header h2 {
+  float: left;
+  font-size: 1.1em;
+}
+
+/* line 17, ../../assets/scss/modules/_work.scss */
+.desktop-carousel-nav {
+  display: none;
+}
+
+/* line 21, ../../assets/scss/modules/_work.scss */
+.mobile-carousel-nav {
+  text-align: right;
+  margin-right: -0.25em;
+}
+/* line 25, ../../assets/scss/modules/_work.scss */
+.mobile-carousel-nav .next-mobile, .mobile-carousel-nav .prev-mobile {
+  display: inline-block;
+  padding: 0 0.5em;
+  margin: 0 0.25em;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  height: 1.5em;
+  line-height: 1.4;
+  text-decoration: none;
+  color: #ccc;
+}
+
+/* line 38, ../../assets/scss/modules/_work.scss */
+.work-item-count {
+  display: none;
+}
+
+/* line 42, ../../assets/scss/modules/_work.scss */
+.work-carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* line 49, ../../assets/scss/modules/_work.scss */
+.work-carousel li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 57, ../../assets/scss/modules/_work.scss */
+.work-carousel li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+/* line 64, ../../assets/scss/modules/_work.scss */
+.work-carousel img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+}
+
+/* line 72, ../../assets/scss/modules/_work.scss */
+.desktop {
+  border: 1px solid #999;
+}
+
+/* line 76, ../../assets/scss/modules/_work.scss */
+.mobile {
+  border: 1px solid transparent;
+}
+
+/* line 80, ../../assets/scss/modules/_work.scss */
+.work-copy {
+  padding: 1em 0 1.5em;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+/* line 85, ../../assets/scss/modules/_work.scss */
+.work-copy p {
+  color: #ccc;
+}
+
+/* line 90, ../../assets/scss/modules/_work.scss */
+.work-copy-desc {
+  margin-bottom: 0.75em;
+}
+
+/* line 95, ../../assets/scss/modules/_work.scss */
+.work-copy-roles p {
+  margin-bottom: 1em;
+}
+/* line 99, ../../assets/scss/modules/_work.scss */
+.work-copy-roles a {
+  margin-left: -5px;
+  padding: 1px 5px 0;
+}
+
+@media (min-width: 28.75em) {
+  /* line 106, ../../assets/scss/modules/_work.scss */
+  .work-item {
+    margin-bottom: 4em;
+  }
+
+  /* line 110, ../../assets/scss/modules/_work.scss */
+  .work-header {
+    height: 1em;
+    line-height: 1em;
+  }
+
+  /* line 115, ../../assets/scss/modules/_work.scss */
+  .mobile-carousel-nav {
+    display: none;
+  }
+
+  /* line 119, ../../assets/scss/modules/_work.scss */
+  .desktop-carousel-nav {
+    display: inline-block;
+    float: right;
+  }
+  /* line 123, ../../assets/scss/modules/_work.scss */
+  .desktop-carousel-nav a {
+    padding: 1px 5px 0;
+    font-style: italic;
+  }
+
+  /* line 129, ../../assets/scss/modules/_work.scss */
+  .work-item-count {
+    display: inline-block;
+    margin-left: 0.5em;
+    opacity: 0.5;
+    float: right;
+  }
+
+  /* line 136, ../../assets/scss/modules/_work.scss */
+  .work-copy {
+    display: inline-block;
+    padding: 1.6em 0 1.25em;
+    text-align: left;
+  }
+
+  /* line 142, ../../assets/scss/modules/_work.scss */
+  .work-copy-desc, .work-copy-roles {
+    float: left;
+    width: 45%;
+  }
+
+  /* line 147, ../../assets/scss/modules/_work.scss */
+  .work-copy-desc {
+    margin: 0 10% 0 0;
+  }
+}
+/* line 152, ../../assets/scss/modules/_work.scss */
+#top {
+  position: fixed;
+  bottom: -2em;
+  right: 2.5%;
+  width: 1.8em;
+  height: 1.8em;
+  line-height: 2;
+  color: #999;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #999;
+  border-bottom: 0;
+  border-radius: 1px 1px 0 0;
+  cursor: pointer;
+  -webkit-transform: bottom 0.5s linear;
+  transform: bottom 0.5s linear;
+}
+/* line 169, ../../assets/scss/modules/_work.scss */
+#top:hover {
+  background: #fff;
+  color: #2f2f2f;
+}
