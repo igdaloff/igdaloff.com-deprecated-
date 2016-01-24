@@ -1,17 +1,13 @@
 (function() {
 
-	// RESPONSIVE HEADER
-	fitText($('.my-name'), 1.15);
-
 	//'OFF' TILT ON HOVER
-	$('h1').lettering();
+	$('.my-name').lettering();
 
-	$('.char14, .char15').wrapAll('<div class="off-wrap">');
+	$('.char13, .char14, .char15').wrapAll('<div class="off-wrap">');
 
-	$('h1').on('mouseenter mouseleave', function(){
+	$('.my-name').on('mouseenter mouseleave focus blur', function(){
 		$('.off-wrap').toggleClass('off-tilt');
 	});
-
 
 
 
@@ -46,49 +42,6 @@
 	//Don't remove resume if clicked
 	$resume.on('click', function(e){
 		e.stopPropagation();
-	});
-
-
-
-
-	//WORK CAROUSEL
-	$(window).load( function(){
-
-		$(".work-carousel").responsiveSlides({
-			auto					: false,
-			pager					: false,
-			nav						: true,
-			navContainer	: ".work-nav",
-			speed					: 800,
-			namespace			: "work-carousel"
-		});
-
-		//WORK CAROUSEL COUNTER
-		function countCarousel(){
-			var $itemNumberContainer = $(this).parents('.desktop-carousel-nav').siblings('.work-item-count').find('.work-item-number');
-			var $itemNumber = $itemNumberContainer.html();
-			var $itemNumberTotal = $(this).parents('.desktop-carousel-nav').siblings('.work-item-count').find('.work-item-total').html();
-
-			//Count up or down 1, depending on which nav is clicked
-			if ( $(this).hasClass('next') ) {
-				$itemNumber++;
-			} else {
-				$itemNumber--;
-			}
-
-			//Replace content with new incremented number
-			$itemNumberContainer.html($itemNumber);
-
-			if ($itemNumber > $itemNumberTotal) {
-				$itemNumber = 1;
-				$itemNumberContainer.html($itemNumber);
-			} else if ($itemNumber < 1) {
-				$itemNumber = $itemNumberTotal;
-				$itemNumberContainer.html($itemNumberTotal);
-			}
-		}
-
-		$('.work-nav a').on('click', countCarousel);
 	});
 
 })();

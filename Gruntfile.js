@@ -39,8 +39,6 @@ module.exports = function(grunt){
         src: [
           "./assets/js/lib/jquery/dist/jquery.js",
           "./assets/js/lib/modernizr/modernizr.js",
-          "./assets/js/lib/handlebars/handlebars.js",
-          "./assets/js/lib/responsiveslides.js",
           "./assets/js/lib/jquery.lettering.js",
           "./assets/js/lib/fittext/fittext.js"
           ],
@@ -62,17 +60,6 @@ module.exports = function(grunt){
           './public/js/app.min.js': ['./public/js/app.js']
         }
       }
-    },
-    assemble: {
-      options: {
-        layout: "./src/layouts/default.hbs",
-        flatten: true
-      },
-      pages: {
-        files: {
-          './': ['./src/pages/*.hbs']
-        }
-      }
     }
   });
 
@@ -82,10 +69,8 @@ module.exports = function(grunt){
   grunt.loadNpmTasks("grunt-contrib-sass");
   grunt.loadNpmTasks("grunt-contrib-compass");
   grunt.loadNpmTasks("grunt-contrib-concat");
-  grunt.loadNpmTasks("grunt-newer");
-  grunt.loadNpmTasks("grunt-assemble");
 
-  grunt.registerTask("build", ["newer:concat:vendor", "newer:concat:app", "newer:compass:dist", "assemble"]);
-  grunt.registerTask("default", ["jshint", "build", "watch", "assemble"]);
+  grunt.registerTask("build", ["newer:concat:vendor", "newer:concat:app", "newer:compass:dist"]);
+  grunt.registerTask("default", ["jshint", "build", "watch"]);
   grunt.registerTask("prod", ["build", "uglify"]);
 };
