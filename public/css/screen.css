@@ -6,7 +6,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, strong, sub, sup, tt,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, var, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -79,6 +79,7 @@ a:hover, a:focus {
 
 /* line 4, ../../assets/scss/common/_layout.scss */
 body {
+  padding: 2em;
   font-family: "chaparral-pro", georgia, serif;
   color: #444;
 }
@@ -92,6 +93,7 @@ body {
   /* line 4, ../../assets/scss/common/_layout.scss */
   body {
     font-size: 125%;
+    padding: 5em 2em 0 6em;
   }
 }
 @media (min-width: 60em) {
@@ -101,14 +103,13 @@ body {
   }
 }
 
-/* line 20, ../../assets/scss/common/_layout.scss */
+/* line 22, ../../assets/scss/common/_layout.scss */
 .wrapper {
   width: 80%;
   max-width: 1200px;
-  margin: 0 auto;
 }
 
-/* line 26, ../../assets/scss/common/_layout.scss */
+/* line 27, ../../assets/scss/common/_layout.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -117,36 +118,35 @@ body {
 
 /* line 4, ../../assets/scss/modules/_header.scss */
 .intro-header {
-  margin-top: 2em;
   font-size: 2em;
 }
-/* line 8, ../../assets/scss/modules/_header.scss */
+/* line 7, ../../assets/scss/modules/_header.scss */
 .intro-header a {
   padding: 10px 0 0;
 }
-/* line 11, ../../assets/scss/modules/_header.scss */
+/* line 10, ../../assets/scss/modules/_header.scss */
 .intro-header a:hover, .intro-header a:focus {
   margin: 0 -5px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 19, ../../assets/scss/modules/_header.scss */
+/* line 18, ../../assets/scss/modules/_header.scss */
 .about-copy {
   width: auto;
   line-height: 1.25;
 }
 
-/* line 24, ../../assets/scss/modules/_header.scss */
+/* line 23, ../../assets/scss/modules/_header.scss */
 .my-name {
   display: inline;
 }
-/* line 26, ../../assets/scss/modules/_header.scss */
+/* line 25, ../../assets/scss/modules/_header.scss */
 .my-name:focus {
   outline: none;
 }
 
-/* line 31, ../../assets/scss/modules/_header.scss */
+/* line 30, ../../assets/scss/modules/_header.scss */
 .off-wrap {
   display: inline-block;
   position: relative;
@@ -160,7 +160,7 @@ body {
   transition: all 0.2s ease-in;
 }
 
-/* line 41, ../../assets/scss/modules/_header.scss */
+/* line 40, ../../assets/scss/modules/_header.scss */
 .off-tilt {
   position: relative;
   -webkit-transform: rotate(16deg);
@@ -172,22 +172,22 @@ body {
   top: 0.15em;
 }
 
-/* line 52, ../../assets/scss/modules/_header.scss */
+/* line 51, ../../assets/scss/modules/_header.scss */
 .header-links {
   margin-top: 1em;
 }
-/* line 55, ../../assets/scss/modules/_header.scss */
+/* line 54, ../../assets/scss/modules/_header.scss */
 .header-links li {
   display: block;
   position: relative;
   margin: 0;
 }
 @media (min-width: 53.125em) {
-  /* line 55, ../../assets/scss/modules/_header.scss */
+  /* line 54, ../../assets/scss/modules/_header.scss */
   .header-links li {
     display: inline-block;
   }
-  /* line 63, ../../assets/scss/modules/_header.scss */
+  /* line 62, ../../assets/scss/modules/_header.scss */
   .header-links li + li {
     margin-left: 0.25em;
   }

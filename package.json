@@ -19,6 +19,7 @@
   },
   "author": "Nathan Igdaloff",
   "devDependencies": {
-    "grunt-contrib-compass": "~0.7.2"
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-cssmin": "~0.14.0"
   }
 }

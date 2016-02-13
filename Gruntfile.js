@@ -17,9 +17,6 @@ module.exports = function(grunt){
       jshint: {
         files: ['Gruntfile.js', 'assets/js/**/*.js', 'app/**/*.js'],
         tasks: 'jshint'
-      },
-      assemble: {
-        files: ['./src/**/*.hbs']
       }
     },
     jshint: {
@@ -52,12 +49,19 @@ module.exports = function(grunt){
     uglify: {
       vendors: {
         files: {
-          './public/js/vendors.min.js': ['./public/js/vendors.js']
+          './public/js/vendors.min.js': './public/js/vendors.js'
         }
       },
       app: {
         files: {
-          './public/js/app.min.js': ['./public/js/app.js']
+          './public/js/app.min.js': './public/js/app.js'
+        }
+      }
+    },
+    cssmin: {
+      target: {
+        files: {
+          './public/css/screen.min.css': './public/css/screen.css'
         }
       }
     }
@@ -69,8 +73,9 @@ module.exports = function(grunt){
   grunt.loadNpmTasks("grunt-contrib-sass");
   grunt.loadNpmTasks("grunt-contrib-compass");
   grunt.loadNpmTasks("grunt-contrib-concat");
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask("build", ["newer:concat:vendor", "newer:concat:app", "newer:compass:dist"]);
+  grunt.registerTask("build", ["concat:vendor", "concat:app", "compass:dist"]);
   grunt.registerTask("default", ["jshint", "build", "watch"]);
-  grunt.registerTask("prod", ["build", "uglify"]);
+  grunt.registerTask("prod", ["build", "uglify", "cssmin"]);
 };
