@@ -64,23 +64,17 @@ a, img {
 /* line 7, ../../assets/scss/common/_typography.scss */
 a {
   display: inline-block;
-  border-bottom: 3px solid;
-  text-decoration: none;
-  line-height: 0.75;
 }
-/* line 13, ../../assets/scss/common/_typography.scss */
+/* line 10, ../../assets/scss/common/_typography.scss */
 a:hover, a:focus {
-  background: #444;
-  color: #fff;
-  text-decoration: none;
+  color: #999;
   outline: none;
-  border-bottom: 3px solid #444;
 }
 
 /* line 4, ../../assets/scss/common/_layout.scss */
 body {
   padding: 2em;
-  font-family: "chaparral-pro", georgia, serif;
+  font-family: georgia, serif;
   color: #444;
 }
 @media (min-width: 28.75em) {
@@ -96,7 +90,7 @@ body {
     padding: 5em 2em 0 6em;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 72em) {
   /* line 4, ../../assets/scss/common/_layout.scss */
   body {
     font-size: 137.5%;
@@ -118,35 +112,25 @@ body {
 
 /* line 4, ../../assets/scss/modules/_header.scss */
 .intro-header {
-  font-size: 2em;
-}
-/* line 7, ../../assets/scss/modules/_header.scss */
-.intro-header a {
-  padding: 10px 0 0;
-}
-/* line 10, ../../assets/scss/modules/_header.scss */
-.intro-header a:hover, .intro-header a:focus {
-  margin: 0 -5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  font-size: 1.25em;
 }
 
-/* line 18, ../../assets/scss/modules/_header.scss */
+/* line 8, ../../assets/scss/modules/_header.scss */
 .about-copy {
   width: auto;
   line-height: 1.25;
 }
 
-/* line 23, ../../assets/scss/modules/_header.scss */
+/* line 13, ../../assets/scss/modules/_header.scss */
 .my-name {
   display: inline;
 }
-/* line 25, ../../assets/scss/modules/_header.scss */
+/* line 16, ../../assets/scss/modules/_header.scss */
 .my-name:focus {
   outline: none;
 }
 
-/* line 30, ../../assets/scss/modules/_header.scss */
+/* line 21, ../../assets/scss/modules/_header.scss */
 .off-wrap {
   display: inline-block;
   position: relative;
@@ -160,7 +144,7 @@ body {
   transition: all 0.2s ease-in;
 }
 
-/* line 40, ../../assets/scss/modules/_header.scss */
+/* line 31, ../../assets/scss/modules/_header.scss */
 .off-tilt {
   position: relative;
   -webkit-transform: rotate(16deg);
@@ -172,249 +156,32 @@ body {
   top: 0.15em;
 }
 
-/* line 51, ../../assets/scss/modules/_header.scss */
+/* line 42, ../../assets/scss/modules/_header.scss */
 .header-links {
   margin-top: 1em;
 }
-/* line 54, ../../assets/scss/modules/_header.scss */
+/* line 45, ../../assets/scss/modules/_header.scss */
 .header-links li {
   display: block;
   position: relative;
   margin: 0;
 }
-@media (min-width: 53.125em) {
-  /* line 54, ../../assets/scss/modules/_header.scss */
+@media (min-width: 72em) {
+  /* line 45, ../../assets/scss/modules/_header.scss */
   .header-links li {
     display: inline-block;
   }
-  /* line 62, ../../assets/scss/modules/_header.scss */
+  /* line 53, ../../assets/scss/modules/_header.scss */
   .header-links li + li {
     margin-left: 0.25em;
   }
 }
 
-/*------------------------------
-RESUME
-------------------------------*/
-/* line 4, ../../assets/scss/modules/_resume.scss */
-.resume {
-  display: none;
-  position: absolute;
-  width: 80%;
-  padding: 2em 2em 1em;
-  top: 3em;
-  left: 10%;
-  text-align: left;
-  background: #fff;
-  *zoom: 1;
-  color: #444;
-  border-radius: 1px;
-  z-index: 10000;
-  -webkit-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  -o-transform: scale(1.4);
-  transform: scale(1.4);
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
-  -webkit-backface-visibility: hidden;
+/* line 60, ../../assets/scss/modules/_header.scss */
+.side-project {
+  margin-top: 5em;
 }
-/* line 7, ../../assets/scss/common/_mixins.scss */
-.resume:before, .resume:after {
-  content: "";
-  display: table;
-}
-/* line 12, ../../assets/scss/common/_mixins.scss */
-.resume:after {
-  clear: both;
-}
-/* line 29, ../../assets/scss/modules/_resume.scss */
-.resume h3 {
-  margin-bottom: 0.25em;
-  font-size: 1.1em;
-  border-bottom: 1px solid #999;
-  line-height: 1;
-}
-/* line 36, ../../assets/scss/modules/_resume.scss */
-.resume h4 {
-  font-size: 0.9em;
-  line-height: 1;
-}
-/* line 41, ../../assets/scss/modules/_resume.scss */
-.resume h5 {
-  font-size: 0.8em;
-  color: #999;
-  line-height: 1.2;
-}
-/* line 46, ../../assets/scss/modules/_resume.scss */
-.resume h5 span {
-  float: right;
-}
-/* line 51, ../../assets/scss/modules/_resume.scss */
-.resume a:hover {
-  background: #444;
-  color: #fff;
-}
-/* line 56, ../../assets/scss/modules/_resume.scss */
-.resume ul {
-  margin: 0 0 1em 0.9em;
-  list-style-type: disc;
-}
-/* line 61, ../../assets/scss/modules/_resume.scss */
-.resume li, .resume p {
-  margin-bottom: 0.5em;
-  font-size: 0.8em;
-  line-height: 1.25;
-}
-
-/* line 68, ../../assets/scss/modules/_resume.scss */
-.resume-header {
-  padding-bottom: 1em;
-  *zoom: 1;
-}
-/* line 7, ../../assets/scss/common/_mixins.scss */
-.resume-header:before, .resume-header:after {
-  content: "";
-  display: table;
-}
-/* line 12, ../../assets/scss/common/_mixins.scss */
-.resume-header:after {
-  clear: both;
-}
-/* line 72, ../../assets/scss/modules/_resume.scss */
-.resume-header h2 {
-  font-size: 1.6em;
-  line-height: 1;
-}
-/* line 77, ../../assets/scss/modules/_resume.scss */
-.resume-header h4 {
-  margin-bottom: 0.75em;
-}
-
-/* line 82, ../../assets/scss/modules/_resume.scss */
-.resume-contact {
-  color: #999;
-  font-size: 0.8em;
-}
-/* line 86, ../../assets/scss/modules/_resume.scss */
-.resume-contact a {
-  display: block;
-  text-decoration: none;
-}
-/* line 90, ../../assets/scss/modules/_resume.scss */
-.resume-contact a:hover {
-  background: none;
-  color: gray;
-}
-/* line 96, ../../assets/scss/modules/_resume.scss */
-.resume-contact .resume-pdf-link {
-  text-decoration: underline;
-}
-
-/* line 102, ../../assets/scss/modules/_resume.scss */
-.resume-dates {
-  display: none;
-}
-
-/* line 106, ../../assets/scss/modules/_resume.scss */
-.resume-content-item {
-  margin-bottom: 1em;
-}
-
-/* line 110, ../../assets/scss/modules/_resume.scss */
-.resume-drop {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-}
-
-/* line 118, ../../assets/scss/modules/_resume.scss */
-.resume-off {
-  left: -150%;
-}
-
-/* line 122, ../../assets/scss/modules/_resume.scss */
-#close-resume {
-  position: absolute;
-  right: 1px;
-  top: 1px;
-  width: 1em;
-  height: 1em;
-  text-decoration: none;
-  font-size: 1.4em;
-  font-weight: 100;
-  cursor: pointer;
-  text-align: center;
-  line-height: 1;
-}
-/* line 135, ../../assets/scss/modules/_resume.scss */
-#close-resume:hover {
-  background: #444;
-  color: #fff;
-}
-
-@media (min-width: 53.125em) {
-  /* line 143, ../../assets/scss/modules/_resume.scss */
-  .name-title {
-    float: left;
-  }
-
-  /* line 147, ../../assets/scss/modules/_resume.scss */
-  .resume-contact {
-    float: right;
-    text-align: right;
-  }
-
-  /* line 153, ../../assets/scss/modules/_resume.scss */
-  .resume-header h2 {
-    margin-bottom: 0;
-  }
-  /* line 157, ../../assets/scss/modules/_resume.scss */
-  .resume-header h4 {
-    margin-bottom: 0;
-  }
-
-  /* line 162, ../../assets/scss/modules/_resume.scss */
-  .resume-dates {
-    display: inline-block;
-    float: right;
-    font-size: 0.7em;
-    color: #999;
-  }
-}
-@media (min-width: 60em) {
-  /* line 172, ../../assets/scss/modules/_resume.scss */
-  .resume h3 {
-    border: none;
-    margin: 0;
-  }
-
-  /* line 178, ../../assets/scss/modules/_resume.scss */
-  .resume-section {
-    float: left;
-    width: 100%;
-    padding-top: 1em;
-    margin-bottom: 1em;
-    border-top: 1px solid #ccc;
-  }
-
-  /* line 186, ../../assets/scss/modules/_resume.scss */
-  .resume-section-header {
-    float: left;
-    width: 20%;
-  }
-
-  /* line 191, ../../assets/scss/modules/_resume.scss */
-  .resume-content {
-    float: right;
-    width: 77.5%;
-    padding-left: 2.5%;
-    margin-left: 1.25%;
-    border-left: 1px solid #ccc;
-  }
+/* line 63, ../../assets/scss/modules/_header.scss */
+.side-project a:hover, .side-project a:focus {
+  color: #72ff00;
 }

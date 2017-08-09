@@ -2,17 +2,7 @@
 // Header Styles
 // =======================
 .intro-header{
-	font-size:2em;
-
-	a{
-		padding: 10px 0 0;
-
-		&:hover, &:focus{
-			margin: 0 -5px;
-			padding-left: 5px;
-			padding-right: 5px;
-		}
-	}
+	font-size:1.25em;
 }
 
 .about-copy{
@@ -22,6 +12,7 @@
 
 .my-name{
 	display: inline;
+
 	&:focus{
 		outline: none;
 	}
@@ -56,12 +47,20 @@
 		position: relative;
 		margin: 0;
 
-		@include larger-than(large){
+		@include larger-than(extra-large){
 			display: inline-block;
 
 			&+li{
 				margin-left: 0.25em;
 			}
 		}
+	}
+}
+
+.side-project{
+	margin-top: 5em;
+
+	a:hover, a:focus{
+		color: #72ff00;
 	}
 }

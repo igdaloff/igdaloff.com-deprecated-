@@ -2,19 +2,13 @@
 // Fonts
 // =======================
 $sans: "brandon-grotesque", helvetica, sans-serif;
-$serif: "chaparral-pro", georgia, serif;
+$serif: georgia, serif;
 
 a{
 	display: inline-block;
-	border-bottom: 3px solid;
-	text-decoration: none;
-	line-height: 0.75;
 
 	&:hover, &:focus{
-		background: $black;
-		color: $white;
-		text-decoration: none;
+		color: #999;
 		outline: none;
-		border-bottom: 3px solid $black;
 	}
 }
